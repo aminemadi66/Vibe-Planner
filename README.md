@@ -1027,7 +1027,129 @@ Web Application
 Better Weekend Planning
 
 The project aims to demonstrate not only a trained Machine Learning model, but a complete end-to-end AI product combining data, modeling, backend services, external APIs, user interaction, testing, and documentation.
+---
+## 📦 IMPORTANT: Extract ZIP Files Before Running
 
+Some parts of this project are provided as ZIP archives.
+
+### ⚠️ You MUST extract the required ZIP files before running the project.
+
+The application **must not be run directly from inside a ZIP file**.
+
+### 1. Download the Project
+
+Download or clone the repository to your computer.
+
+### 2. Locate the ZIP Files
+
+Find the ZIP files included in the project.
+
+For example:
+
+```text
+templates.zip
+Weekend_Activity_Planner_API_Final.zip
+
+3. Extract the ZIP Files
+
+Extract each ZIP file before starting the application.
+
+On Windows:
+
+Right-click the ZIP file
+        ↓
+Extract All...
+        ↓
+Extract
+
+On macOS, simply double-click the ZIP file.
+
+On Linux, right-click the ZIP file and select Extract Here.
+
+4. Check the Folder Structure
+
+After extracting the files, make sure the project structure is correct.
+
+For example, the templates folder must look like this:
+
+templates/
+├── index.html
+├── about.html
+└── contact.html
+
+It must NOT look like this:
+
+templates/
+└── templates/
+    ├── index.html
+    ├── about.html
+    └── contact.html
+
+The same rule applies to the other ZIP archives.
+
+5. Final Structure
+
+After extraction, the main project should contain the required files and folders, for example:
+
+Weekend-Activity-Planner/
+│
+├── app.py
+├── requirements.txt
+├── weekend_model.pkl
+│
+├── templates/
+│   ├── index.html
+│   ├── about.html
+│   └── contact.html
+│
+├── scripts/
+│
+└── Weekend_Activity_Planner_API_Final/
+    ├── requirements.txt
+    ├── .env.example
+    ├── app/
+    └── tests/
+
+6. Install the Dependencies
+
+After extracting the ZIP files, open a terminal in the main project directory and run:
+
+pip install -r requirements.txt
+
+For the FastAPI backend:
+
+cd Weekend_Activity_Planner_API_Final
+pip install -r requirements.txt
+
+7. Run the Application
+
+Return to the main project directory:
+
+cd ..
+python app.py
+
+Then open:
+
+http://127.0.0.1:5000
+
+🔴 Important
+
+Before running the project, make sure that:
+
+All required ZIP files have been extracted.
+
+The extracted folders are in the correct locations.
+
+templates/ contains index.html, about.html, and contact.html.
+
+Required Python files are present.
+
+Dependencies have been installed.
+
+The required .env configuration is available for Google Calendar features.
+
+
+> In short: Download → Extract ZIP files → Check the folder structure → Install dependencies → Run app.py.
 ---
 
 🚀 Built for Innovation
