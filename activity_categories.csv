@@ -1,0 +1,13 @@
+category,description,default_duration_min,cost_values_are_estimated
+amusement,"Playgrounds, arcades, theme parks and mini golf",120,true
+aquarium,Aquariums,120,true
+attraction,"Visitor attractions, viewpoints, and public art",90,true
+cinema,Movie theaters,135,true
+gallery,Galleries and arts centers,75,true
+hiking/nature,"Nature reserves, beaches and natural destinations",150,true
+library,Libraries,75,true
+museum,Museums and exhibits,120,true
+park,Public parks and green spaces,90,true
+sports/fitness,"Sports, fitness and recreation",90,true
+theatre,Theaters and performance venues,150,true
+zoo,Zoos,180,true

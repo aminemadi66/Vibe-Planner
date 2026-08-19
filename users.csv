@@ -1,0 +1,1001 @@
+user_id,home_city,home_state,preferred_categories,budget_usd,group_type,has_kids,indoor_outdoor_preference,wheelchair_need,synthetic
+syn_u0001,Houston,TX,theatre|zoo,75,family,true,indoor,false,true
+syn_u0002,New York,NY,gallery|aquarium,25,solo,false,mixed,false,true
+syn_u0003,Dallas,TX,hiking/nature|attraction|museum|park,0,friends,false,mixed,false,true
+syn_u0004,New York,NY,theatre|sports/fitness,0,family,true,outdoor,false,true
+syn_u0005,Dallas,TX,aquarium|park,0,friends,false,indoor,false,true
+syn_u0006,Chicago,IL,theatre|museum|gallery|attraction,120,solo,false,mixed,false,true
+syn_u0007,Phoenix,AZ,theatre|museum|zoo,120,solo,false,indoor,false,true
+syn_u0008,San Francisco,CA,hiking/nature|sports/fitness,75,solo,false,outdoor,false,true
+syn_u0009,Seattle,WA,sports/fitness|museum|attraction|hiking/nature,120,family,true,indoor,false,true
+syn_u0010,Dallas,TX,amusement|library|gallery,40,solo,false,indoor,false,true
+syn_u0011,Chicago,IL,hiking/nature|gallery|museum|library,40,friends,false,indoor,false,true
+syn_u0012,Chicago,IL,sports/fitness|aquarium|amusement|museum,15,solo,false,indoor,false,true
+syn_u0013,Boston,MA,sports/fitness|theatre|cinema|park,0,couple,false,indoor,false,true
+syn_u0014,Phoenix,AZ,sports/fitness|zoo|museum|cinema,75,solo,false,mixed,false,true
+syn_u0015,Seattle,WA,gallery|sports/fitness|park,40,friends,false,indoor,false,true
+syn_u0016,Phoenix,AZ,museum|zoo|hiking/nature,0,friends,false,outdoor,false,true
+syn_u0017,Philadelphia,PA,museum|amusement,0,couple,false,mixed,false,true
+syn_u0018,Philadelphia,PA,library|aquarium|amusement|attraction,75,solo,false,outdoor,false,true
+syn_u0019,San Diego,CA,library|amusement|museum|attraction,0,family,true,indoor,true,true
+syn_u0020,Houston,TX,amusement|cinema,15,solo,false,mixed,false,true
+syn_u0021,Boston,MA,cinema|library|theatre,25,couple,false,outdoor,false,true
+syn_u0022,Philadelphia,PA,hiking/nature|museum|library|aquarium,75,couple,false,mixed,false,true
+syn_u0023,Houston,TX,hiking/nature|museum|sports/fitness|park,0,family,true,indoor,false,true
+syn_u0024,Dallas,TX,museum|hiking/nature|gallery,25,couple,false,mixed,false,true
+syn_u0025,Houston,TX,park|zoo|theatre|cinema,40,family,true,indoor,false,true
+syn_u0026,San Diego,CA,attraction|gallery|park,15,family,true,outdoor,false,true
+syn_u0027,San Francisco,CA,amusement|sports/fitness,15,friends,false,mixed,false,true
+syn_u0028,Chicago,IL,attraction|aquarium,120,couple,false,outdoor,false,true
+syn_u0029,Chicago,IL,hiking/nature|sports/fitness,0,couple,false,indoor,false,true
+syn_u0030,San Francisco,CA,gallery|hiking/nature|amusement|museum,120,friends,false,mixed,false,true
+syn_u0031,San Diego,CA,amusement|gallery,15,family,true,indoor,false,true
+syn_u0032,Phoenix,AZ,attraction|zoo|amusement,25,friends,false,outdoor,false,true
+syn_u0033,San Antonio,TX,hiking/nature|zoo,75,couple,false,outdoor,false,true
+syn_u0034,San Antonio,TX,theatre|zoo,120,couple,false,outdoor,false,true
+syn_u0035,Philadelphia,PA,amusement|theatre,40,friends,false,mixed,false,true
+syn_u0036,Chicago,IL,park|sports/fitness|gallery|attraction,0,solo,false,mixed,false,true
+syn_u0037,Los Angeles,CA,sports/fitness|cinema,25,family,true,indoor,false,true
+syn_u0038,Houston,TX,library|hiking/nature,120,couple,false,mixed,false,true
+syn_u0039,San Diego,CA,zoo|cinema|aquarium|hiking/nature,40,couple,false,indoor,false,true
+syn_u0040,Dallas,TX,hiking/nature|gallery|aquarium|sports/fitness,15,solo,false,indoor,false,true
+syn_u0041,Chicago,IL,park|zoo|gallery|theatre,75,solo,false,indoor,false,true
+syn_u0042,San Antonio,TX,museum|amusement,75,couple,false,indoor,false,true
+syn_u0043,Boston,MA,gallery|attraction|theatre|park,25,couple,false,mixed,false,true
+syn_u0044,San Antonio,TX,aquarium|theatre|amusement,0,family,true,outdoor,false,true
+syn_u0045,Phoenix,AZ,attraction|zoo,15,couple,false,outdoor,false,true
+syn_u0046,San Francisco,CA,theatre|museum|aquarium,25,solo,false,mixed,true,true
+syn_u0047,San Diego,CA,theatre|museum,25,family,true,mixed,false,true
+syn_u0048,Houston,TX,library|museum,120,couple,false,mixed,false,true
+syn_u0049,Boston,MA,aquarium|zoo|sports/fitness|attraction,120,family,true,outdoor,false,true
+syn_u0050,New York,NY,amusement|library|aquarium,25,solo,false,indoor,false,true
+syn_u0051,San Antonio,TX,attraction|theatre|museum,25,friends,false,indoor,false,true
+syn_u0052,San Diego,CA,aquarium|hiking/nature|cinema,40,family,true,mixed,false,true
+syn_u0053,Phoenix,AZ,cinema|gallery,120,couple,false,indoor,false,true
+syn_u0054,Phoenix,AZ,cinema|museum|hiking/nature,25,friends,false,mixed,false,true
+syn_u0055,Phoenix,AZ,hiking/nature|gallery,120,solo,false,indoor,false,true
+syn_u0056,Los Angeles,CA,zoo|park|library,75,solo,false,outdoor,true,true
+syn_u0057,Houston,TX,park|library|cinema,25,friends,false,indoor,false,true
+syn_u0058,Philadelphia,PA,hiking/nature|library,75,family,true,outdoor,false,true
+syn_u0059,Boston,MA,library|theatre,15,friends,false,outdoor,false,true
+syn_u0060,San Diego,CA,hiking/nature|attraction,40,couple,false,mixed,false,true
+syn_u0061,San Francisco,CA,aquarium|hiking/nature|park,120,solo,false,indoor,false,true
+syn_u0062,San Francisco,CA,attraction|amusement|aquarium,75,family,true,indoor,false,true
+syn_u0063,Boston,MA,gallery|aquarium|museum|attraction,75,family,true,indoor,false,true
+syn_u0064,San Antonio,TX,museum|park|aquarium|library,0,couple,false,indoor,false,true
+syn_u0065,Boston,MA,hiking/nature|gallery|park|library,25,couple,false,mixed,false,true
+syn_u0066,San Francisco,CA,museum|zoo,40,solo,false,mixed,false,true
+syn_u0067,San Antonio,TX,amusement|gallery,40,couple,false,mixed,true,true
+syn_u0068,San Francisco,CA,zoo|gallery|aquarium,0,solo,false,mixed,false,true
+syn_u0069,New York,NY,gallery|theatre|library,25,family,true,indoor,true,true
+syn_u0070,Phoenix,AZ,hiking/nature|park,75,friends,false,mixed,false,true
+syn_u0071,Seattle,WA,library|cinema,120,couple,false,outdoor,false,true
+syn_u0072,San Diego,CA,cinema|zoo,25,couple,false,outdoor,false,true
+syn_u0073,San Francisco,CA,amusement|park|hiking/nature|cinema,15,solo,false,mixed,false,true
+syn_u0074,Seattle,WA,attraction|hiking/nature,15,family,true,indoor,false,true
+syn_u0075,Boston,MA,amusement|aquarium|zoo|theatre,25,couple,false,mixed,false,true
+syn_u0076,Boston,MA,amusement|attraction,75,family,true,mixed,false,true
+syn_u0077,New York,NY,sports/fitness|theatre,15,solo,false,outdoor,false,true
+syn_u0078,Phoenix,AZ,zoo|sports/fitness,120,couple,false,indoor,false,true
+syn_u0079,San Diego,CA,hiking/nature|aquarium|theatre|cinema,75,solo,false,mixed,false,true
+syn_u0080,Seattle,WA,theatre|gallery,75,solo,false,mixed,false,true
+syn_u0081,Boston,MA,theatre|hiking/nature,75,couple,false,outdoor,false,true
+syn_u0082,Seattle,WA,sports/fitness|museum,0,family,true,outdoor,false,true
+syn_u0083,Houston,TX,sports/fitness|hiking/nature|attraction|library,75,family,true,outdoor,false,true
+syn_u0084,San Francisco,CA,gallery|theatre|hiking/nature|amusement,25,solo,false,mixed,false,true
+syn_u0085,San Francisco,CA,attraction|aquarium,15,couple,false,indoor,true,true
+syn_u0086,Philadelphia,PA,museum|aquarium|gallery|library,40,solo,false,outdoor,false,true
+syn_u0087,Boston,MA,theatre|gallery,120,friends,false,outdoor,false,true
+syn_u0088,Los Angeles,CA,gallery|museum,15,solo,false,outdoor,false,true
+syn_u0089,San Francisco,CA,amusement|theatre|museum,15,friends,false,indoor,false,true
+syn_u0090,San Francisco,CA,gallery|zoo|aquarium,75,solo,false,indoor,true,true
+syn_u0091,San Francisco,CA,sports/fitness|theatre|park,15,family,true,outdoor,false,true
+syn_u0092,San Francisco,CA,park|amusement,0,friends,false,outdoor,false,true
+syn_u0093,San Diego,CA,sports/fitness|theatre|attraction|gallery,25,friends,false,mixed,false,true
+syn_u0094,Philadelphia,PA,zoo|park|aquarium|cinema,0,solo,false,outdoor,false,true
+syn_u0095,San Antonio,TX,gallery|hiking/nature|amusement,120,solo,false,outdoor,false,true
+syn_u0096,San Antonio,TX,museum|sports/fitness,25,family,true,outdoor,false,true
+syn_u0097,Dallas,TX,theatre|attraction|hiking/nature,40,family,true,outdoor,false,true
+syn_u0098,San Diego,CA,sports/fitness|amusement|zoo|park,40,couple,false,indoor,false,true
+syn_u0099,Seattle,WA,park|cinema|library,15,family,true,indoor,false,true
+syn_u0100,San Francisco,CA,amusement|park|museum|cinema,15,solo,false,outdoor,false,true
+syn_u0101,San Diego,CA,attraction|theatre|cinema|zoo,0,family,true,outdoor,false,true
+syn_u0102,San Antonio,TX,library|theatre|museum,15,solo,false,indoor,false,true
+syn_u0103,San Antonio,TX,library|amusement,75,family,true,outdoor,false,true
+syn_u0104,Los Angeles,CA,hiking/nature|library|gallery,0,solo,false,mixed,false,true
+syn_u0105,San Diego,CA,attraction|gallery|library,75,family,true,mixed,false,true
+syn_u0106,Phoenix,AZ,amusement|cinema,40,couple,false,mixed,false,true
+syn_u0107,Houston,TX,zoo|amusement|sports/fitness,0,couple,false,outdoor,false,true
+syn_u0108,Philadelphia,PA,park|zoo,75,solo,false,mixed,false,true
+syn_u0109,Seattle,WA,theatre|aquarium|sports/fitness|library,120,couple,false,mixed,false,true
+syn_u0110,Houston,TX,sports/fitness|library,40,couple,false,mixed,false,true
+syn_u0111,Phoenix,AZ,library|cinema|sports/fitness|zoo,25,family,true,mixed,false,true
+syn_u0112,Seattle,WA,zoo|park,15,solo,false,outdoor,false,true
+syn_u0113,Dallas,TX,attraction|gallery,15,solo,false,indoor,true,true
+syn_u0114,Los Angeles,CA,aquarium|zoo,120,couple,false,indoor,false,true
+syn_u0115,New York,NY,cinema|amusement|attraction,0,family,true,outdoor,false,true
+syn_u0116,Philadelphia,PA,park|aquarium|gallery|zoo,0,friends,false,indoor,false,true
+syn_u0117,San Antonio,TX,theatre|cinema|aquarium|hiking/nature,25,couple,false,outdoor,false,true
+syn_u0118,Boston,MA,hiking/nature|theatre|gallery|amusement,40,family,true,mixed,false,true
+syn_u0119,Seattle,WA,sports/fitness|hiking/nature|gallery,15,friends,false,outdoor,true,true
+syn_u0120,Boston,MA,aquarium|hiking/nature,40,solo,false,outdoor,false,true
+syn_u0121,Philadelphia,PA,hiking/nature|park|zoo,25,couple,false,outdoor,false,true
+syn_u0122,Chicago,IL,sports/fitness|cinema|museum,40,family,true,mixed,false,true
+syn_u0123,Philadelphia,PA,cinema|attraction,0,couple,false,mixed,false,true
+syn_u0124,Phoenix,AZ,library|amusement|aquarium,15,family,true,outdoor,false,true
+syn_u0125,San Antonio,TX,theatre|gallery,0,solo,false,indoor,false,true
+syn_u0126,San Francisco,CA,attraction|sports/fitness|aquarium|amusement,120,family,true,indoor,false,true
+syn_u0127,San Diego,CA,gallery|theatre|park,75,friends,false,indoor,false,true
+syn_u0128,Chicago,IL,cinema|museum|amusement,75,family,true,mixed,false,true
+syn_u0129,Dallas,TX,amusement|museum,120,couple,false,indoor,false,true
+syn_u0130,San Antonio,TX,hiking/nature|theatre,25,couple,false,indoor,false,true
+syn_u0131,San Antonio,TX,attraction|hiking/nature|gallery|library,0,solo,false,mixed,false,true
+syn_u0132,Seattle,WA,hiking/nature|amusement|cinema|sports/fitness,15,couple,false,indoor,false,true
+syn_u0133,San Antonio,TX,gallery|theatre|sports/fitness,120,friends,false,indoor,false,true
+syn_u0134,San Francisco,CA,amusement|museum|attraction,120,couple,false,mixed,false,true
+syn_u0135,San Diego,CA,zoo|aquarium|hiking/nature|cinema,75,couple,false,indoor,false,true
+syn_u0136,Houston,TX,park|hiking/nature|cinema,75,friends,false,mixed,false,true
+syn_u0137,Chicago,IL,aquarium|park|theatre|gallery,75,couple,false,mixed,false,true
+syn_u0138,Houston,TX,park|hiking/nature,15,family,true,indoor,false,true
+syn_u0139,San Diego,CA,sports/fitness|amusement,40,couple,false,indoor,false,true
+syn_u0140,Boston,MA,amusement|museum|hiking/nature|park,0,couple,false,mixed,false,true
+syn_u0141,Los Angeles,CA,aquarium|theatre|museum,120,couple,false,outdoor,false,true
+syn_u0142,Chicago,IL,zoo|gallery,75,family,true,outdoor,false,true
+syn_u0143,Chicago,IL,gallery|aquarium|zoo,25,friends,false,mixed,false,true
+syn_u0144,Chicago,IL,aquarium|amusement,15,family,true,mixed,false,true
+syn_u0145,San Diego,CA,hiking/nature|zoo,40,family,true,mixed,false,true
+syn_u0146,Chicago,IL,aquarium|library,25,friends,false,mixed,false,true
+syn_u0147,Dallas,TX,cinema|gallery|theatre|hiking/nature,40,friends,false,mixed,false,true
+syn_u0148,San Diego,CA,museum|gallery,0,couple,false,outdoor,false,true
+syn_u0149,Los Angeles,CA,theatre|aquarium|museum|park,15,family,true,indoor,false,true
+syn_u0150,San Diego,CA,hiking/nature|gallery|cinema,40,couple,false,indoor,false,true
+syn_u0151,Seattle,WA,amusement|sports/fitness|park|library,0,couple,false,outdoor,false,true
+syn_u0152,Houston,TX,museum|aquarium,25,couple,false,outdoor,false,true
+syn_u0153,Houston,TX,aquarium|amusement|theatre|cinema,15,friends,false,outdoor,false,true
+syn_u0154,New York,NY,park|zoo|aquarium,15,family,true,indoor,false,true
+syn_u0155,Phoenix,AZ,amusement|zoo|museum,0,family,true,mixed,true,true
+syn_u0156,Philadelphia,PA,aquarium|museum|zoo,40,family,true,indoor,false,true
+syn_u0157,Dallas,TX,zoo|theatre,15,couple,false,mixed,false,true
+syn_u0158,Phoenix,AZ,museum|attraction,0,friends,false,outdoor,false,true
+syn_u0159,Los Angeles,CA,aquarium|gallery|attraction,75,family,true,outdoor,false,true
+syn_u0160,San Diego,CA,amusement|sports/fitness|museum|cinema,0,couple,false,outdoor,false,true
+syn_u0161,Houston,TX,park|amusement|zoo,25,friends,false,mixed,false,true
+syn_u0162,Philadelphia,PA,museum|sports/fitness|amusement|aquarium,0,friends,false,outdoor,false,true
+syn_u0163,Chicago,IL,zoo|sports/fitness|museum,25,family,true,mixed,false,true
+syn_u0164,Chicago,IL,gallery|aquarium|museum|library,75,couple,false,indoor,false,true
+syn_u0165,San Francisco,CA,hiking/nature|zoo|sports/fitness,15,family,true,mixed,true,true
+syn_u0166,San Diego,CA,zoo|aquarium|theatre|sports/fitness,25,family,true,mixed,false,true
+syn_u0167,New York,NY,theatre|sports/fitness|amusement,15,solo,false,outdoor,false,true
+syn_u0168,Houston,TX,theatre|amusement|park|cinema,25,solo,false,mixed,true,true
+syn_u0169,Chicago,IL,museum|theatre|amusement|cinema,120,couple,false,outdoor,false,true
+syn_u0170,Chicago,IL,aquarium|hiking/nature|zoo|sports/fitness,40,friends,false,outdoor,false,true
+syn_u0171,Chicago,IL,cinema|hiking/nature,40,solo,false,indoor,false,true
+syn_u0172,San Francisco,CA,gallery|sports/fitness|amusement|hiking/nature,15,family,true,outdoor,false,true
+syn_u0173,New York,NY,amusement|aquarium,15,family,true,outdoor,false,true
+syn_u0174,San Diego,CA,library|theatre|gallery|museum,120,friends,false,mixed,false,true
+syn_u0175,New York,NY,zoo|museum|attraction,40,solo,false,indoor,false,true
+syn_u0176,Los Angeles,CA,library|park,25,couple,false,mixed,false,true
+syn_u0177,Los Angeles,CA,aquarium|amusement,75,friends,false,indoor,false,true
+syn_u0178,Dallas,TX,hiking/nature|zoo|library|aquarium,15,friends,false,mixed,false,true
+syn_u0179,Philadelphia,PA,zoo|gallery|cinema|amusement,25,couple,false,indoor,false,true
+syn_u0180,Houston,TX,library|museum,15,family,true,mixed,false,true
+syn_u0181,Phoenix,AZ,park|museum,40,friends,false,mixed,false,true
+syn_u0182,Boston,MA,attraction|library,75,friends,false,indoor,false,true
+syn_u0183,New York,NY,hiking/nature|zoo,25,couple,false,outdoor,false,true
+syn_u0184,Los Angeles,CA,sports/fitness|zoo,25,couple,false,outdoor,false,true
+syn_u0185,Houston,TX,aquarium|attraction|sports/fitness|hiking/nature,0,solo,false,indoor,false,true
+syn_u0186,Phoenix,AZ,hiking/nature|zoo|amusement|park,40,couple,false,indoor,false,true
+syn_u0187,New York,NY,attraction|aquarium|library,75,solo,false,indoor,false,true
+syn_u0188,New York,NY,park|museum|library|hiking/nature,120,couple,false,indoor,false,true
+syn_u0189,Los Angeles,CA,park|zoo|amusement|hiking/nature,120,friends,false,indoor,false,true
+syn_u0190,San Francisco,CA,aquarium|zoo|amusement,25,solo,false,mixed,false,true
+syn_u0191,Dallas,TX,hiking/nature|park|theatre|museum,25,friends,false,indoor,false,true
+syn_u0192,New York,NY,attraction|sports/fitness,25,friends,false,outdoor,false,true
+syn_u0193,Dallas,TX,park|zoo|amusement|museum,75,friends,false,indoor,false,true
+syn_u0194,San Antonio,TX,library|amusement|theatre,15,solo,false,indoor,false,true
+syn_u0195,Seattle,WA,aquarium|park,15,couple,false,mixed,false,true
+syn_u0196,New York,NY,attraction|sports/fitness|library,15,couple,false,mixed,false,true
+syn_u0197,San Antonio,TX,zoo|gallery|library,120,friends,false,mixed,false,true
+syn_u0198,San Antonio,TX,museum|aquarium,120,couple,false,outdoor,false,true
+syn_u0199,San Diego,CA,theatre|zoo|gallery|library,15,family,true,mixed,false,true
+syn_u0200,San Antonio,TX,sports/fitness|theatre,75,friends,false,mixed,false,true
+syn_u0201,Phoenix,AZ,museum|hiking/nature|sports/fitness|theatre,120,family,true,indoor,false,true
+syn_u0202,Phoenix,AZ,attraction|gallery,40,family,true,outdoor,false,true
+syn_u0203,San Diego,CA,attraction|museum|theatre,25,friends,false,mixed,false,true
+syn_u0204,San Antonio,TX,library|park|aquarium,0,friends,false,indoor,false,true
+syn_u0205,Boston,MA,hiking/nature|amusement|theatre|museum,75,friends,false,mixed,false,true
+syn_u0206,San Diego,CA,aquarium|library|museum,120,family,true,mixed,false,true
+syn_u0207,Seattle,WA,theatre|library,25,family,true,mixed,false,true
+syn_u0208,San Francisco,CA,gallery|theatre,75,couple,false,outdoor,false,true
+syn_u0209,San Antonio,TX,sports/fitness|library|cinema,15,couple,false,outdoor,false,true
+syn_u0210,Chicago,IL,gallery|amusement,15,couple,false,outdoor,true,true
+syn_u0211,Dallas,TX,attraction|aquarium|museum|sports/fitness,0,solo,false,outdoor,false,true
+syn_u0212,San Diego,CA,attraction|hiking/nature,120,friends,false,indoor,false,true
+syn_u0213,Seattle,WA,attraction|cinema,15,couple,false,indoor,false,true
+syn_u0214,Philadelphia,PA,amusement|aquarium|library,40,solo,false,indoor,false,true
+syn_u0215,Phoenix,AZ,sports/fitness|gallery,15,family,true,outdoor,false,true
+syn_u0216,Boston,MA,cinema|theatre|aquarium,15,friends,false,outdoor,false,true
+syn_u0217,San Diego,CA,gallery|hiking/nature|zoo,0,solo,false,outdoor,false,true
+syn_u0218,Houston,TX,attraction|hiking/nature,15,friends,false,indoor,true,true
+syn_u0219,Dallas,TX,park|zoo,120,couple,false,indoor,false,true
+syn_u0220,San Antonio,TX,aquarium|sports/fitness|attraction,15,friends,false,indoor,false,true
+syn_u0221,Philadelphia,PA,library|attraction|zoo,40,family,true,indoor,false,true
+syn_u0222,San Francisco,CA,attraction|theatre|park|hiking/nature,25,friends,false,mixed,false,true
+syn_u0223,San Antonio,TX,aquarium|museum,25,solo,false,mixed,false,true
+syn_u0224,Philadelphia,PA,hiking/nature|aquarium|library|museum,120,couple,false,indoor,false,true
+syn_u0225,Dallas,TX,zoo|theatre,0,friends,false,indoor,false,true
+syn_u0226,San Francisco,CA,theatre|museum,25,family,true,outdoor,false,true
+syn_u0227,San Diego,CA,aquarium|sports/fitness,25,solo,false,outdoor,false,true
+syn_u0228,Los Angeles,CA,library|attraction|museum,75,couple,false,mixed,false,true
+syn_u0229,Houston,TX,park|sports/fitness|library|amusement,40,family,true,outdoor,false,true
+syn_u0230,Houston,TX,park|amusement|hiking/nature|library,40,friends,false,mixed,false,true
+syn_u0231,Chicago,IL,park|cinema,120,friends,false,outdoor,false,true
+syn_u0232,Phoenix,AZ,zoo|library,120,friends,false,mixed,false,true
+syn_u0233,Phoenix,AZ,museum|attraction,25,solo,false,mixed,false,true
+syn_u0234,Phoenix,AZ,library|park|amusement,25,family,true,mixed,false,true
+syn_u0235,Boston,MA,sports/fitness|zoo|gallery|aquarium,120,solo,false,mixed,true,true
+syn_u0236,Phoenix,AZ,amusement|cinema|attraction,40,couple,false,outdoor,false,true
+syn_u0237,Philadelphia,PA,sports/fitness|park|zoo,120,solo,false,indoor,false,true
+syn_u0238,New York,NY,hiking/nature|theatre|cinema,25,friends,false,indoor,false,true
+syn_u0239,Seattle,WA,gallery|park,120,friends,false,indoor,false,true
+syn_u0240,San Diego,CA,theatre|cinema,0,friends,false,indoor,false,true
+syn_u0241,San Francisco,CA,cinema|library|theatre,0,couple,false,mixed,false,true
+syn_u0242,Boston,MA,theatre|gallery|attraction|park,40,family,true,outdoor,false,true
+syn_u0243,New York,NY,hiking/nature|cinema|gallery,40,family,true,indoor,false,true
+syn_u0244,Dallas,TX,aquarium|cinema,120,couple,false,mixed,false,true
+syn_u0245,Boston,MA,museum|library|zoo,0,friends,false,indoor,false,true
+syn_u0246,Dallas,TX,hiking/nature|sports/fitness|gallery|library,25,friends,false,mixed,false,true
+syn_u0247,New York,NY,sports/fitness|attraction,15,solo,false,mixed,true,true
+syn_u0248,Boston,MA,attraction|hiking/nature,75,couple,false,outdoor,false,true
+syn_u0249,Seattle,WA,theatre|gallery,40,solo,false,outdoor,false,true
+syn_u0250,Seattle,WA,gallery|park,120,solo,false,outdoor,false,true
+syn_u0251,New York,NY,amusement|sports/fitness,0,solo,false,outdoor,false,true
+syn_u0252,San Francisco,CA,aquarium|gallery|hiking/nature,75,solo,false,outdoor,false,true
+syn_u0253,San Antonio,TX,library|amusement,15,family,true,outdoor,false,true
+syn_u0254,Houston,TX,cinema|sports/fitness|museum|attraction,120,couple,false,outdoor,true,true
+syn_u0255,Chicago,IL,aquarium|park,120,family,true,mixed,false,true
+syn_u0256,Los Angeles,CA,gallery|cinema|theatre,75,solo,false,outdoor,false,true
+syn_u0257,Seattle,WA,library|theatre,120,friends,false,indoor,false,true
+syn_u0258,Seattle,WA,cinema|hiking/nature,40,couple,false,mixed,false,true
+syn_u0259,Houston,TX,sports/fitness|attraction|museum,0,friends,false,indoor,false,true
+syn_u0260,Los Angeles,CA,park|cinema|gallery|attraction,15,solo,false,indoor,false,true
+syn_u0261,Seattle,WA,museum|sports/fitness|theatre|amusement,40,solo,false,mixed,false,true
+syn_u0262,San Diego,CA,park|gallery,40,family,true,outdoor,false,true
+syn_u0263,Chicago,IL,museum|theatre,25,friends,false,outdoor,false,true
+syn_u0264,San Antonio,TX,cinema|park,120,couple,false,indoor,true,true
+syn_u0265,San Antonio,TX,attraction|hiking/nature,40,friends,false,mixed,false,true
+syn_u0266,San Diego,CA,gallery|amusement|sports/fitness,25,couple,false,mixed,false,true
+syn_u0267,Chicago,IL,attraction|theatre|hiking/nature,15,family,true,outdoor,false,true
+syn_u0268,Chicago,IL,library|hiking/nature|gallery,75,friends,false,mixed,false,true
+syn_u0269,New York,NY,zoo|museum,0,family,true,outdoor,false,true
+syn_u0270,Houston,TX,library|gallery|aquarium|theatre,40,solo,false,outdoor,false,true
+syn_u0271,Dallas,TX,park|theatre|library,120,friends,false,outdoor,false,true
+syn_u0272,Los Angeles,CA,zoo|park,120,solo,false,mixed,true,true
+syn_u0273,Philadelphia,PA,museum|hiking/nature|attraction,120,friends,false,outdoor,false,true
+syn_u0274,San Diego,CA,cinema|theatre|amusement|sports/fitness,25,family,true,indoor,false,true
+syn_u0275,Philadelphia,PA,park|attraction,0,family,true,mixed,false,true
+syn_u0276,Los Angeles,CA,hiking/nature|aquarium|cinema|zoo,120,solo,false,mixed,false,true
+syn_u0277,San Francisco,CA,park|cinema|zoo,40,couple,false,indoor,false,true
+syn_u0278,New York,NY,amusement|theatre|cinema|park,75,friends,false,outdoor,false,true
+syn_u0279,Chicago,IL,amusement|attraction,40,family,true,indoor,false,true
+syn_u0280,San Francisco,CA,gallery|zoo,15,couple,false,indoor,false,true
+syn_u0281,Dallas,TX,gallery|zoo|amusement|library,75,couple,false,indoor,false,true
+syn_u0282,Los Angeles,CA,gallery|park,15,couple,false,mixed,false,true
+syn_u0283,New York,NY,theatre|attraction|sports/fitness|park,25,solo,false,indoor,false,true
+syn_u0284,San Antonio,TX,theatre|amusement,25,solo,false,mixed,false,true
+syn_u0285,San Diego,CA,attraction|museum|amusement,120,family,true,outdoor,false,true
+syn_u0286,Dallas,TX,theatre|attraction|museum|sports/fitness,25,friends,false,outdoor,false,true
+syn_u0287,Dallas,TX,aquarium|attraction|sports/fitness,40,solo,false,outdoor,false,true
+syn_u0288,San Antonio,TX,hiking/nature|gallery|cinema,75,couple,false,outdoor,false,true
+syn_u0289,New York,NY,hiking/nature|amusement|sports/fitness,75,family,true,outdoor,false,true
+syn_u0290,Phoenix,AZ,cinema|attraction,40,family,true,mixed,true,true
+syn_u0291,Boston,MA,cinema|hiking/nature,120,friends,false,outdoor,false,true
+syn_u0292,Philadelphia,PA,amusement|aquarium,0,family,true,indoor,false,true
+syn_u0293,San Antonio,TX,hiking/nature|park|gallery,15,family,true,outdoor,false,true
+syn_u0294,Dallas,TX,museum|zoo,75,couple,false,mixed,false,true
+syn_u0295,Boston,MA,museum|amusement,25,couple,false,mixed,false,true
+syn_u0296,Phoenix,AZ,zoo|cinema,75,couple,false,indoor,true,true
+syn_u0297,Boston,MA,library|attraction,120,friends,false,outdoor,false,true
+syn_u0298,San Antonio,TX,gallery|amusement|sports/fitness,120,friends,false,outdoor,false,true
+syn_u0299,San Francisco,CA,library|park|amusement|zoo,120,family,true,outdoor,false,true
+syn_u0300,Philadelphia,PA,attraction|amusement|theatre,15,solo,false,mixed,false,true
+syn_u0301,New York,NY,hiking/nature|museum|aquarium,75,family,true,indoor,false,true
+syn_u0302,Houston,TX,zoo|sports/fitness|gallery|attraction,15,friends,false,mixed,false,true
+syn_u0303,San Diego,CA,attraction|amusement|park|library,0,friends,false,indoor,false,true
+syn_u0304,New York,NY,park|theatre|zoo|museum,25,friends,false,indoor,true,true
+syn_u0305,Houston,TX,museum|attraction|amusement|aquarium,25,friends,false,outdoor,false,true
+syn_u0306,Los Angeles,CA,zoo|park|hiking/nature,75,solo,false,mixed,false,true
+syn_u0307,Seattle,WA,attraction|museum|cinema,75,family,true,mixed,false,true
+syn_u0308,Boston,MA,cinema|hiking/nature|sports/fitness,75,couple,false,outdoor,false,true
+syn_u0309,Philadelphia,PA,park|hiking/nature|library|zoo,40,friends,false,outdoor,false,true
+syn_u0310,Seattle,WA,park|attraction|museum,120,friends,false,outdoor,false,true
+syn_u0311,Boston,MA,library|aquarium|amusement|zoo,25,friends,false,indoor,false,true
+syn_u0312,Chicago,IL,gallery|attraction|park,120,family,true,outdoor,false,true
+syn_u0313,San Francisco,CA,attraction|museum,75,friends,false,mixed,false,true
+syn_u0314,Chicago,IL,sports/fitness|theatre|attraction,15,couple,false,indoor,true,true
+syn_u0315,Dallas,TX,library|theatre|zoo|sports/fitness,15,friends,false,indoor,false,true
+syn_u0316,San Antonio,TX,library|gallery,75,solo,false,indoor,false,true
+syn_u0317,Phoenix,AZ,museum|hiking/nature,75,family,true,indoor,false,true
+syn_u0318,Boston,MA,zoo|theatre,0,solo,false,outdoor,false,true
+syn_u0319,San Diego,CA,aquarium|gallery|attraction,15,family,true,mixed,false,true
+syn_u0320,Dallas,TX,park|hiking/nature|library,25,couple,false,indoor,false,true
+syn_u0321,San Francisco,CA,park|theatre|museum|gallery,0,couple,false,outdoor,false,true
+syn_u0322,Philadelphia,PA,library|theatre|museum|park,0,friends,false,outdoor,false,true
+syn_u0323,New York,NY,museum|library|amusement|theatre,15,friends,false,indoor,false,true
+syn_u0324,New York,NY,aquarium|amusement|sports/fitness|cinema,40,family,true,outdoor,false,true
+syn_u0325,San Diego,CA,zoo|gallery|theatre|cinema,0,couple,false,outdoor,false,true
+syn_u0326,Phoenix,AZ,sports/fitness|gallery|hiking/nature,0,solo,false,indoor,false,true
+syn_u0327,Phoenix,AZ,gallery|museum|aquarium,15,couple,false,outdoor,false,true
+syn_u0328,Seattle,WA,park|sports/fitness,25,couple,false,indoor,false,true
+syn_u0329,Seattle,WA,gallery|museum|library|aquarium,75,couple,false,mixed,false,true
+syn_u0330,San Diego,CA,museum|attraction|theatre,15,friends,false,outdoor,false,true
+syn_u0331,Philadelphia,PA,amusement|aquarium|sports/fitness,15,solo,false,mixed,false,true
+syn_u0332,Boston,MA,library|museum|amusement,15,friends,false,mixed,false,true
+syn_u0333,Houston,TX,amusement|zoo,75,family,true,indoor,false,true
+syn_u0334,San Diego,CA,park|sports/fitness,15,couple,false,mixed,false,true
+syn_u0335,Los Angeles,CA,gallery|zoo|sports/fitness|aquarium,0,solo,false,indoor,false,true
+syn_u0336,Boston,MA,sports/fitness|hiking/nature,75,couple,false,mixed,false,true
+syn_u0337,New York,NY,sports/fitness|hiking/nature|library|zoo,15,family,true,outdoor,false,true
+syn_u0338,Seattle,WA,library|attraction|zoo,120,solo,false,outdoor,false,true
+syn_u0339,Los Angeles,CA,zoo|hiking/nature|amusement|theatre,40,solo,false,mixed,false,true
+syn_u0340,Philadelphia,PA,aquarium|library,25,solo,false,outdoor,false,true
+syn_u0341,Houston,TX,attraction|sports/fitness|library|cinema,75,friends,false,indoor,false,true
+syn_u0342,San Antonio,TX,gallery|hiking/nature,40,family,true,mixed,false,true
+syn_u0343,Dallas,TX,attraction|theatre,40,couple,false,indoor,false,true
+syn_u0344,Phoenix,AZ,park|amusement|cinema|library,75,solo,false,indoor,false,true
+syn_u0345,San Diego,CA,cinema|museum|sports/fitness,120,family,true,indoor,false,true
+syn_u0346,Phoenix,AZ,hiking/nature|aquarium,75,friends,false,mixed,false,true
+syn_u0347,Los Angeles,CA,museum|park,15,couple,false,mixed,false,true
+syn_u0348,New York,NY,hiking/nature|library,0,couple,false,indoor,false,true
+syn_u0349,San Antonio,TX,museum|amusement|gallery|sports/fitness,40,couple,false,indoor,false,true
+syn_u0350,San Antonio,TX,cinema|park|museum,0,family,true,outdoor,false,true
+syn_u0351,Houston,TX,museum|park,25,family,true,outdoor,false,true
+syn_u0352,San Francisco,CA,aquarium|sports/fitness|library|amusement,0,family,true,mixed,false,true
+syn_u0353,New York,NY,theatre|attraction,15,solo,false,outdoor,false,true
+syn_u0354,Philadelphia,PA,sports/fitness|museum,15,solo,false,indoor,false,true
+syn_u0355,Chicago,IL,theatre|hiking/nature|sports/fitness|cinema,120,family,true,indoor,false,true
+syn_u0356,Seattle,WA,attraction|aquarium|park|hiking/nature,0,couple,false,indoor,false,true
+syn_u0357,Philadelphia,PA,zoo|sports/fitness,15,friends,false,indoor,false,true
+syn_u0358,Dallas,TX,theatre|aquarium|library|zoo,25,couple,false,indoor,true,true
+syn_u0359,Seattle,WA,gallery|theatre|attraction|hiking/nature,120,solo,false,outdoor,false,true
+syn_u0360,Los Angeles,CA,cinema|aquarium|amusement|theatre,120,couple,false,mixed,false,true
+syn_u0361,Houston,TX,sports/fitness|hiking/nature|aquarium,0,solo,false,indoor,false,true
+syn_u0362,Phoenix,AZ,museum|hiking/nature|sports/fitness,40,family,true,outdoor,false,true
+syn_u0363,San Diego,CA,zoo|sports/fitness,15,family,true,outdoor,false,true
+syn_u0364,Dallas,TX,gallery|sports/fitness|zoo,40,couple,false,outdoor,false,true
+syn_u0365,San Diego,CA,library|museum|cinema,120,family,true,outdoor,false,true
+syn_u0366,Boston,MA,zoo|amusement|gallery,15,couple,false,indoor,false,true
+syn_u0367,San Francisco,CA,library|park,40,solo,false,outdoor,false,true
+syn_u0368,Los Angeles,CA,sports/fitness|park,75,friends,false,outdoor,false,true
+syn_u0369,Los Angeles,CA,park|sports/fitness,75,solo,false,mixed,false,true
+syn_u0370,San Diego,CA,cinema|sports/fitness,0,couple,false,outdoor,false,true
+syn_u0371,Seattle,WA,aquarium|gallery,25,couple,false,outdoor,false,true
+syn_u0372,Chicago,IL,aquarium|amusement|sports/fitness,0,solo,false,indoor,true,true
+syn_u0373,New York,NY,attraction|theatre|library,15,solo,false,outdoor,false,true
+syn_u0374,Dallas,TX,library|sports/fitness,75,family,true,mixed,false,true
+syn_u0375,Chicago,IL,museum|sports/fitness|cinema|aquarium,0,couple,false,outdoor,false,true
+syn_u0376,San Francisco,CA,library|park|zoo,25,couple,false,indoor,true,true
+syn_u0377,Los Angeles,CA,theatre|hiking/nature|museum|gallery,15,family,true,outdoor,false,true
+syn_u0378,Philadelphia,PA,gallery|theatre|attraction|park,15,couple,false,outdoor,false,true
+syn_u0379,Houston,TX,park|amusement|zoo|attraction,120,friends,false,outdoor,false,true
+syn_u0380,Phoenix,AZ,park|hiking/nature,25,family,true,outdoor,false,true
+syn_u0381,Boston,MA,attraction|sports/fitness,25,family,true,indoor,false,true
+syn_u0382,Seattle,WA,zoo|theatre|hiking/nature,75,couple,false,outdoor,false,true
+syn_u0383,New York,NY,sports/fitness|gallery|attraction|theatre,0,couple,false,outdoor,false,true
+syn_u0384,Phoenix,AZ,hiking/nature|aquarium|cinema,25,family,true,outdoor,false,true
+syn_u0385,New York,NY,sports/fitness|attraction,40,couple,false,mixed,false,true
+syn_u0386,Seattle,WA,amusement|sports/fitness|zoo,120,friends,false,outdoor,false,true
+syn_u0387,Houston,TX,zoo|park|museum,75,solo,false,mixed,false,true
+syn_u0388,San Diego,CA,amusement|library,40,solo,false,indoor,false,true
+syn_u0389,Los Angeles,CA,park|gallery|attraction|amusement,120,couple,false,outdoor,false,true
+syn_u0390,San Diego,CA,hiking/nature|library|amusement|aquarium,0,family,true,mixed,false,true
+syn_u0391,Dallas,TX,park|gallery|hiking/nature,15,couple,false,outdoor,false,true
+syn_u0392,New York,NY,library|theatre,15,solo,false,outdoor,false,true
+syn_u0393,Seattle,WA,library|attraction,120,couple,false,mixed,false,true
+syn_u0394,Dallas,TX,zoo|amusement|gallery|cinema,0,solo,false,indoor,false,true
+syn_u0395,San Francisco,CA,aquarium|sports/fitness|hiking/nature|attraction,15,couple,false,outdoor,false,true
+syn_u0396,Dallas,TX,museum|theatre|park,40,friends,false,mixed,false,true
+syn_u0397,San Diego,CA,amusement|library|attraction|park,40,solo,false,indoor,false,true
+syn_u0398,Houston,TX,cinema|hiking/nature,15,solo,false,indoor,false,true
+syn_u0399,Phoenix,AZ,amusement|sports/fitness,75,couple,false,indoor,false,true
+syn_u0400,Dallas,TX,cinema|hiking/nature,120,solo,false,indoor,false,true
+syn_u0401,Philadelphia,PA,attraction|hiking/nature|museum|aquarium,120,solo,false,mixed,false,true
+syn_u0402,San Antonio,TX,zoo|aquarium|museum,0,family,true,mixed,false,true
+syn_u0403,San Diego,CA,zoo|amusement,75,couple,false,indoor,false,true
+syn_u0404,Chicago,IL,zoo|amusement,75,couple,false,indoor,false,true
+syn_u0405,Philadelphia,PA,park|amusement|theatre,15,friends,false,mixed,false,true
+syn_u0406,Seattle,WA,zoo|amusement,15,friends,false,indoor,true,true
+syn_u0407,San Antonio,TX,attraction|sports/fitness|library,15,couple,false,outdoor,false,true
+syn_u0408,Los Angeles,CA,hiking/nature|amusement,40,solo,false,indoor,false,true
+syn_u0409,Boston,MA,zoo|attraction|museum,25,friends,false,indoor,false,true
+syn_u0410,Houston,TX,sports/fitness|cinema|attraction|aquarium,75,solo,false,outdoor,true,true
+syn_u0411,San Diego,CA,attraction|aquarium,120,couple,false,indoor,false,true
+syn_u0412,Seattle,WA,cinema|park|sports/fitness|zoo,0,solo,false,mixed,false,true
+syn_u0413,Dallas,TX,library|sports/fitness|attraction|cinema,40,family,true,outdoor,false,true
+syn_u0414,Seattle,WA,theatre|library,75,friends,false,mixed,false,true
+syn_u0415,New York,NY,attraction|hiking/nature|park|cinema,15,couple,false,outdoor,false,true
+syn_u0416,Philadelphia,PA,sports/fitness|park|amusement,40,family,true,indoor,false,true
+syn_u0417,Boston,MA,museum|gallery|library,120,friends,false,outdoor,false,true
+syn_u0418,Phoenix,AZ,cinema|zoo|amusement,25,couple,false,outdoor,false,true
+syn_u0419,San Francisco,CA,hiking/nature|cinema|library|zoo,75,family,true,indoor,false,true
+syn_u0420,San Diego,CA,library|zoo|attraction,25,solo,false,outdoor,false,true
+syn_u0421,Philadelphia,PA,aquarium|gallery|attraction,15,couple,false,mixed,false,true
+syn_u0422,Phoenix,AZ,attraction|museum|park|zoo,0,friends,false,outdoor,false,true
+syn_u0423,Chicago,IL,hiking/nature|cinema,15,solo,false,outdoor,false,true
+syn_u0424,Los Angeles,CA,library|aquarium|park|cinema,15,couple,false,outdoor,false,true
+syn_u0425,Seattle,WA,museum|cinema,15,solo,false,indoor,false,true
+syn_u0426,San Antonio,TX,hiking/nature|gallery|park|zoo,40,solo,false,mixed,false,true
+syn_u0427,Dallas,TX,attraction|museum|theatre,25,family,true,mixed,false,true
+syn_u0428,Seattle,WA,museum|aquarium|park,120,friends,false,indoor,false,true
+syn_u0429,Houston,TX,park|amusement|gallery,75,solo,false,outdoor,false,true
+syn_u0430,Philadelphia,PA,museum|theatre|zoo,40,couple,false,mixed,false,true
+syn_u0431,Boston,MA,sports/fitness|museum|amusement,40,family,true,indoor,false,true
+syn_u0432,Boston,MA,zoo|attraction|park,75,couple,false,mixed,false,true
+syn_u0433,Houston,TX,park|museum|aquarium,120,family,true,indoor,false,true
+syn_u0434,New York,NY,zoo|amusement|library|theatre,25,family,true,outdoor,false,true
+syn_u0435,Los Angeles,CA,library|cinema|gallery,120,solo,false,indoor,false,true
+syn_u0436,San Diego,CA,hiking/nature|theatre|sports/fitness|library,15,friends,false,indoor,false,true
+syn_u0437,San Diego,CA,gallery|theatre|museum,75,solo,false,outdoor,false,true
+syn_u0438,Houston,TX,amusement|library,75,couple,false,outdoor,false,true
+syn_u0439,San Antonio,TX,theatre|gallery,40,family,true,indoor,false,true
+syn_u0440,New York,NY,amusement|park|cinema,40,family,true,outdoor,false,true
+syn_u0441,San Antonio,TX,aquarium|park|amusement,25,friends,false,mixed,false,true
+syn_u0442,Chicago,IL,museum|theatre|cinema|aquarium,40,friends,false,indoor,false,true
+syn_u0443,San Francisco,CA,cinema|library|amusement|zoo,40,family,true,outdoor,false,true
+syn_u0444,Phoenix,AZ,theatre|aquarium|park|library,120,couple,false,indoor,false,true
+syn_u0445,Phoenix,AZ,park|museum|attraction,15,family,true,mixed,false,true
+syn_u0446,San Diego,CA,cinema|hiking/nature|attraction,75,couple,false,outdoor,false,true
+syn_u0447,Chicago,IL,attraction|hiking/nature|aquarium|theatre,75,family,true,mixed,false,true
+syn_u0448,Philadelphia,PA,hiking/nature|amusement,120,family,true,indoor,false,true
+syn_u0449,Philadelphia,PA,museum|attraction|library|hiking/nature,75,solo,false,outdoor,false,true
+syn_u0450,San Diego,CA,gallery|library,120,friends,false,mixed,false,true
+syn_u0451,San Antonio,TX,theatre|attraction,25,solo,false,outdoor,false,true
+syn_u0452,Los Angeles,CA,sports/fitness|theatre|amusement,15,solo,false,outdoor,false,true
+syn_u0453,Dallas,TX,museum|cinema|sports/fitness,40,couple,false,outdoor,false,true
+syn_u0454,San Francisco,CA,sports/fitness|aquarium,75,solo,false,indoor,false,true
+syn_u0455,Boston,MA,amusement|museum|cinema|park,75,friends,false,indoor,false,true
+syn_u0456,Houston,TX,cinema|hiking/nature|aquarium,15,couple,false,mixed,false,true
+syn_u0457,San Francisco,CA,sports/fitness|park,25,solo,false,outdoor,false,true
+syn_u0458,Seattle,WA,hiking/nature|gallery|aquarium|amusement,0,couple,false,outdoor,false,true
+syn_u0459,Houston,TX,cinema|attraction|sports/fitness|gallery,120,solo,false,indoor,false,true
+syn_u0460,San Francisco,CA,zoo|attraction,40,solo,false,indoor,false,true
+syn_u0461,Phoenix,AZ,museum|amusement|sports/fitness|park,120,couple,false,outdoor,false,true
+syn_u0462,New York,NY,amusement|hiking/nature|park|theatre,25,friends,false,mixed,false,true
+syn_u0463,San Francisco,CA,gallery|museum|aquarium,120,friends,false,indoor,false,true
+syn_u0464,Houston,TX,museum|theatre|attraction,40,couple,false,mixed,false,true
+syn_u0465,Phoenix,AZ,library|gallery|aquarium,15,friends,false,outdoor,false,true
+syn_u0466,Dallas,TX,attraction|library|museum,40,couple,false,outdoor,false,true
+syn_u0467,San Antonio,TX,park|attraction,120,family,true,mixed,false,true
+syn_u0468,Phoenix,AZ,amusement|gallery|aquarium|cinema,25,solo,false,indoor,false,true
+syn_u0469,Seattle,WA,library|park,25,solo,false,outdoor,false,true
+syn_u0470,Los Angeles,CA,museum|cinema|amusement|aquarium,15,friends,false,outdoor,false,true
+syn_u0471,Houston,TX,attraction|hiking/nature|theatre,120,family,true,indoor,false,true
+syn_u0472,Phoenix,AZ,park|cinema|attraction|museum,75,couple,false,indoor,false,true
+syn_u0473,New York,NY,amusement|zoo,15,solo,false,outdoor,false,true
+syn_u0474,Los Angeles,CA,cinema|amusement,15,friends,false,outdoor,false,true
+syn_u0475,San Antonio,TX,museum|aquarium|zoo|sports/fitness,25,solo,false,outdoor,false,true
+syn_u0476,Phoenix,AZ,park|zoo,40,couple,false,indoor,false,true
+syn_u0477,Houston,TX,museum|theatre|library|attraction,25,friends,false,mixed,false,true
+syn_u0478,San Antonio,TX,park|aquarium|library,120,couple,false,indoor,false,true
+syn_u0479,Phoenix,AZ,aquarium|amusement|zoo|library,40,friends,false,indoor,false,true
+syn_u0480,Seattle,WA,zoo|sports/fitness,15,couple,false,indoor,false,true
+syn_u0481,Chicago,IL,cinema|museum,0,family,true,indoor,false,true
+syn_u0482,San Francisco,CA,park|amusement|aquarium|gallery,40,solo,false,indoor,false,true
+syn_u0483,Phoenix,AZ,amusement|zoo|aquarium,25,couple,false,indoor,false,true
+syn_u0484,San Diego,CA,aquarium|theatre,25,friends,false,mixed,false,true
+syn_u0485,Houston,TX,park|zoo|library|aquarium,120,family,true,indoor,false,true
+syn_u0486,Houston,TX,attraction|gallery|hiking/nature|zoo,25,friends,false,mixed,false,true
+syn_u0487,Phoenix,AZ,hiking/nature|aquarium|park|theatre,40,couple,false,indoor,false,true
+syn_u0488,Philadelphia,PA,cinema|zoo,75,friends,false,mixed,false,true
+syn_u0489,Boston,MA,amusement|gallery,0,couple,false,mixed,false,true
+syn_u0490,Dallas,TX,aquarium|museum|cinema|park,0,solo,false,outdoor,false,true
+syn_u0491,San Antonio,TX,hiking/nature|gallery|cinema|museum,15,family,true,mixed,false,true
+syn_u0492,Seattle,WA,library|aquarium|park|hiking/nature,40,solo,false,mixed,false,true
+syn_u0493,Los Angeles,CA,park|amusement|gallery,120,friends,false,mixed,false,true
+syn_u0494,Phoenix,AZ,theatre|gallery|museum|zoo,40,family,true,mixed,false,true
+syn_u0495,New York,NY,sports/fitness|hiking/nature|cinema|gallery,75,friends,false,outdoor,false,true
+syn_u0496,Boston,MA,sports/fitness|hiking/nature|amusement,25,family,true,outdoor,false,true
+syn_u0497,Houston,TX,amusement|attraction|aquarium|zoo,120,family,true,indoor,false,true
+syn_u0498,San Diego,CA,sports/fitness|museum,25,family,true,indoor,false,true
+syn_u0499,San Antonio,TX,gallery|park|sports/fitness,75,family,true,indoor,false,true
+syn_u0500,Phoenix,AZ,cinema|aquarium,75,solo,false,mixed,false,true
+syn_u0501,Philadelphia,PA,cinema|attraction,75,couple,false,indoor,false,true
+syn_u0502,San Francisco,CA,cinema|sports/fitness,25,solo,false,outdoor,false,true
+syn_u0503,Seattle,WA,sports/fitness|cinema,120,family,true,outdoor,false,true
+syn_u0504,Dallas,TX,theatre|park,75,friends,false,mixed,false,true
+syn_u0505,San Diego,CA,park|theatre|attraction,40,solo,false,outdoor,false,true
+syn_u0506,New York,NY,sports/fitness|hiking/nature|cinema|aquarium,75,solo,false,outdoor,false,true
+syn_u0507,Chicago,IL,park|museum|gallery,15,family,true,outdoor,false,true
+syn_u0508,Houston,TX,theatre|park,40,friends,false,outdoor,false,true
+syn_u0509,Philadelphia,PA,cinema|museum|amusement|hiking/nature,120,solo,false,mixed,false,true
+syn_u0510,Chicago,IL,park|museum|cinema,0,couple,false,mixed,false,true
+syn_u0511,San Antonio,TX,theatre|amusement,40,friends,false,indoor,false,true
+syn_u0512,Dallas,TX,theatre|gallery,40,friends,false,indoor,false,true
+syn_u0513,Seattle,WA,amusement|museum|zoo,75,family,true,indoor,true,true
+syn_u0514,San Antonio,TX,library|hiking/nature|museum,120,couple,false,mixed,true,true
+syn_u0515,Boston,MA,park|attraction,15,solo,false,mixed,false,true
+syn_u0516,San Francisco,CA,theatre|gallery|library|attraction,75,family,true,outdoor,false,true
+syn_u0517,Seattle,WA,gallery|hiking/nature,25,family,true,indoor,false,true
+syn_u0518,Boston,MA,sports/fitness|cinema,15,couple,false,mixed,false,true
+syn_u0519,Phoenix,AZ,attraction|zoo,40,friends,false,outdoor,false,true
+syn_u0520,Philadelphia,PA,sports/fitness|hiking/nature|attraction,75,couple,false,outdoor,false,true
+syn_u0521,Los Angeles,CA,aquarium|cinema,75,solo,false,indoor,false,true
+syn_u0522,Boston,MA,amusement|cinema,25,friends,false,mixed,false,true
+syn_u0523,Philadelphia,PA,amusement|hiking/nature|attraction,0,friends,false,indoor,false,true
+syn_u0524,San Antonio,TX,attraction|amusement|zoo|cinema,40,solo,false,outdoor,false,true
+syn_u0525,New York,NY,sports/fitness|gallery|cinema,120,friends,false,mixed,false,true
+syn_u0526,Seattle,WA,park|gallery|sports/fitness|library,75,solo,false,indoor,false,true
+syn_u0527,San Francisco,CA,hiking/nature|sports/fitness|theatre|library,25,couple,false,indoor,false,true
+syn_u0528,Chicago,IL,gallery|amusement,0,couple,false,indoor,false,true
+syn_u0529,Boston,MA,museum|theatre,25,friends,false,mixed,false,true
+syn_u0530,Los Angeles,CA,aquarium|sports/fitness|hiking/nature|theatre,0,couple,false,indoor,false,true
+syn_u0531,Phoenix,AZ,museum|park|cinema|hiking/nature,75,family,true,mixed,false,true
+syn_u0532,Dallas,TX,cinema|amusement|gallery,75,family,true,outdoor,false,true
+syn_u0533,Seattle,WA,library|theatre|cinema|sports/fitness,15,solo,false,outdoor,false,true
+syn_u0534,Seattle,WA,attraction|zoo,40,couple,false,mixed,false,true
+syn_u0535,Boston,MA,library|gallery,40,couple,false,indoor,false,true
+syn_u0536,Dallas,TX,sports/fitness|hiking/nature,40,friends,false,indoor,false,true
+syn_u0537,San Francisco,CA,cinema|park|theatre|sports/fitness,15,family,true,indoor,false,true
+syn_u0538,Philadelphia,PA,hiking/nature|aquarium|cinema|park,40,family,true,mixed,false,true
+syn_u0539,San Francisco,CA,theatre|sports/fitness|park,0,friends,false,outdoor,false,true
+syn_u0540,Houston,TX,zoo|attraction,25,couple,false,outdoor,false,true
+syn_u0541,Boston,MA,aquarium|sports/fitness|library,15,friends,false,mixed,false,true
+syn_u0542,San Francisco,CA,zoo|gallery|amusement,0,couple,false,indoor,true,true
+syn_u0543,San Diego,CA,cinema|hiking/nature,120,family,true,outdoor,false,true
+syn_u0544,Dallas,TX,museum|hiking/nature|amusement|library,75,family,true,mixed,false,true
+syn_u0545,Phoenix,AZ,gallery|museum|attraction|aquarium,0,couple,false,mixed,false,true
+syn_u0546,Los Angeles,CA,cinema|theatre|attraction|amusement,75,couple,false,indoor,false,true
+syn_u0547,Boston,MA,sports/fitness|museum|cinema|theatre,75,solo,false,indoor,false,true
+syn_u0548,San Diego,CA,hiking/nature|zoo|amusement|gallery,15,family,true,indoor,false,true
+syn_u0549,Philadelphia,PA,attraction|aquarium,0,family,true,outdoor,false,true
+syn_u0550,Los Angeles,CA,attraction|zoo|theatre,25,solo,false,mixed,true,true
+syn_u0551,Philadelphia,PA,aquarium|sports/fitness|hiking/nature,40,family,true,mixed,true,true
+syn_u0552,New York,NY,amusement|gallery|hiking/nature,40,family,true,mixed,false,true
+syn_u0553,San Francisco,CA,library|sports/fitness,120,family,true,mixed,false,true
+syn_u0554,Los Angeles,CA,hiking/nature|amusement|park,75,friends,false,outdoor,false,true
+syn_u0555,Dallas,TX,cinema|attraction,25,solo,false,indoor,false,true
+syn_u0556,San Antonio,TX,theatre|sports/fitness|attraction,0,couple,false,indoor,false,true
+syn_u0557,San Francisco,CA,amusement|park|gallery|aquarium,75,friends,false,outdoor,false,true
+syn_u0558,San Diego,CA,park|amusement|zoo,40,friends,false,indoor,false,true
+syn_u0559,Los Angeles,CA,library|zoo|hiking/nature|attraction,40,family,true,indoor,false,true
+syn_u0560,San Francisco,CA,library|park|zoo|aquarium,15,friends,false,indoor,false,true
+syn_u0561,Dallas,TX,attraction|amusement|sports/fitness,75,solo,false,indoor,false,true
+syn_u0562,Dallas,TX,park|aquarium,25,solo,false,mixed,false,true
+syn_u0563,Phoenix,AZ,zoo|amusement,120,friends,false,mixed,false,true
+syn_u0564,Seattle,WA,cinema|aquarium,25,couple,false,mixed,true,true
+syn_u0565,New York,NY,zoo|hiking/nature,25,friends,false,mixed,false,true
+syn_u0566,San Francisco,CA,amusement|museum|library,0,solo,false,mixed,false,true
+syn_u0567,Phoenix,AZ,theatre|attraction|park,75,friends,false,mixed,false,true
+syn_u0568,New York,NY,hiking/nature|gallery|museum,25,solo,false,outdoor,false,true
+syn_u0569,San Francisco,CA,theatre|attraction|sports/fitness|cinema,120,friends,false,outdoor,false,true
+syn_u0570,Philadelphia,PA,amusement|attraction|aquarium|hiking/nature,75,friends,false,outdoor,false,true
+syn_u0571,Seattle,WA,gallery|library,0,solo,false,outdoor,false,true
+syn_u0572,San Francisco,CA,park|amusement|museum,15,solo,false,indoor,false,true
+syn_u0573,San Diego,CA,amusement|sports/fitness|theatre|hiking/nature,75,friends,false,indoor,false,true
+syn_u0574,San Francisco,CA,gallery|library|hiking/nature|zoo,0,solo,false,outdoor,false,true
+syn_u0575,Boston,MA,amusement|museum,25,family,true,indoor,false,true
+syn_u0576,San Francisco,CA,library|gallery|zoo,0,couple,false,outdoor,false,true
+syn_u0577,Los Angeles,CA,gallery|aquarium|museum|cinema,25,friends,false,indoor,false,true
+syn_u0578,Philadelphia,PA,park|aquarium,0,solo,false,mixed,false,true
+syn_u0579,Los Angeles,CA,gallery|hiking/nature|aquarium,0,couple,false,indoor,false,true
+syn_u0580,Dallas,TX,theatre|park|attraction|aquarium,0,family,true,indoor,false,true
+syn_u0581,San Antonio,TX,sports/fitness|aquarium|museum|library,75,family,true,indoor,false,true
+syn_u0582,San Antonio,TX,museum|aquarium|attraction|library,120,solo,false,indoor,false,true
+syn_u0583,Houston,TX,amusement|sports/fitness,15,solo,false,indoor,false,true
+syn_u0584,San Antonio,TX,hiking/nature|museum|zoo|cinema,25,friends,false,indoor,false,true
+syn_u0585,Houston,TX,attraction|library|museum,120,friends,false,mixed,false,true
+syn_u0586,Seattle,WA,zoo|museum|hiking/nature|amusement,0,solo,false,indoor,false,true
+syn_u0587,San Francisco,CA,gallery|aquarium|hiking/nature|library,0,couple,false,mixed,false,true
+syn_u0588,Dallas,TX,attraction|theatre|park,40,family,true,outdoor,false,true
+syn_u0589,New York,NY,gallery|attraction|theatre|amusement,0,solo,false,indoor,false,true
+syn_u0590,Boston,MA,aquarium|museum|gallery,25,family,true,indoor,false,true
+syn_u0591,Dallas,TX,museum|aquarium|zoo|park,120,family,true,mixed,false,true
+syn_u0592,San Antonio,TX,attraction|gallery,0,family,true,indoor,false,true
+syn_u0593,Seattle,WA,library|aquarium|zoo|sports/fitness,120,friends,false,indoor,false,true
+syn_u0594,San Diego,CA,gallery|cinema|park|attraction,0,friends,false,mixed,false,true
+syn_u0595,New York,NY,park|gallery|zoo|amusement,25,family,true,outdoor,false,true
+syn_u0596,Chicago,IL,park|museum|theatre,15,solo,false,outdoor,false,true
+syn_u0597,Seattle,WA,zoo|park|library,75,friends,false,mixed,false,true
+syn_u0598,Philadelphia,PA,cinema|theatre|amusement,75,friends,false,mixed,false,true
+syn_u0599,Los Angeles,CA,park|zoo,75,solo,false,indoor,false,true
+syn_u0600,Phoenix,AZ,sports/fitness|theatre|museum,120,solo,false,outdoor,false,true
+syn_u0601,San Diego,CA,theatre|cinema|amusement,25,solo,false,mixed,false,true
+syn_u0602,Houston,TX,zoo|park|amusement|sports/fitness,120,solo,false,indoor,false,true
+syn_u0603,Dallas,TX,sports/fitness|gallery,40,friends,false,mixed,false,true
+syn_u0604,Boston,MA,attraction|theatre,120,couple,false,indoor,false,true
+syn_u0605,Los Angeles,CA,amusement|aquarium|zoo,75,solo,false,mixed,false,true
+syn_u0606,San Diego,CA,cinema|library|aquarium,40,family,true,mixed,false,true
+syn_u0607,Los Angeles,CA,museum|library|sports/fitness,25,family,true,indoor,false,true
+syn_u0608,Chicago,IL,cinema|amusement|museum,15,friends,false,outdoor,false,true
+syn_u0609,San Diego,CA,zoo|museum,40,solo,false,mixed,false,true
+syn_u0610,Dallas,TX,theatre|attraction|zoo|park,75,friends,false,mixed,false,true
+syn_u0611,San Diego,CA,library|sports/fitness|theatre|museum,0,friends,false,indoor,false,true
+syn_u0612,New York,NY,theatre|attraction|zoo,25,family,true,outdoor,false,true
+syn_u0613,Chicago,IL,sports/fitness|library|zoo,120,friends,false,mixed,false,true
+syn_u0614,Houston,TX,attraction|aquarium,15,solo,false,indoor,false,true
+syn_u0615,Philadelphia,PA,gallery|museum,25,family,true,mixed,false,true
+syn_u0616,Dallas,TX,attraction|cinema|amusement,25,couple,false,indoor,false,true
+syn_u0617,San Antonio,TX,library|sports/fitness|zoo|hiking/nature,40,couple,false,indoor,false,true
+syn_u0618,Dallas,TX,zoo|attraction|sports/fitness|museum,15,solo,false,outdoor,false,true
+syn_u0619,San Francisco,CA,aquarium|library,40,family,true,outdoor,true,true
+syn_u0620,Boston,MA,amusement|aquarium,120,friends,false,mixed,false,true
+syn_u0621,Los Angeles,CA,park|hiking/nature|aquarium|amusement,40,family,true,indoor,false,true
+syn_u0622,Phoenix,AZ,park|attraction,120,family,true,mixed,false,true
+syn_u0623,New York,NY,aquarium|attraction|park,120,couple,false,indoor,false,true
+syn_u0624,San Francisco,CA,sports/fitness|gallery|aquarium|hiking/nature,0,family,true,indoor,false,true
+syn_u0625,Boston,MA,museum|aquarium|cinema|hiking/nature,0,solo,false,outdoor,false,true
+syn_u0626,Dallas,TX,hiking/nature|park,25,couple,false,mixed,false,true
+syn_u0627,New York,NY,library|aquarium|amusement|attraction,40,friends,false,mixed,false,true
+syn_u0628,Philadelphia,PA,sports/fitness|attraction,40,friends,false,indoor,false,true
+syn_u0629,Chicago,IL,park|sports/fitness,25,family,true,indoor,false,true
+syn_u0630,Los Angeles,CA,gallery|museum,120,friends,false,mixed,false,true
+syn_u0631,Seattle,WA,museum|sports/fitness|hiking/nature|theatre,40,solo,false,mixed,false,true
+syn_u0632,Phoenix,AZ,park|hiking/nature|zoo|theatre,15,family,true,mixed,false,true
+syn_u0633,Houston,TX,hiking/nature|museum|cinema|park,0,solo,false,indoor,false,true
+syn_u0634,New York,NY,zoo|cinema|library,25,solo,false,mixed,false,true
+syn_u0635,San Antonio,TX,park|library,0,couple,false,mixed,false,true
+syn_u0636,San Francisco,CA,hiking/nature|sports/fitness,40,friends,false,outdoor,false,true
+syn_u0637,Philadelphia,PA,gallery|hiking/nature|museum,75,friends,false,indoor,false,true
+syn_u0638,Boston,MA,library|park,0,couple,false,indoor,false,true
+syn_u0639,Seattle,WA,zoo|attraction|sports/fitness|hiking/nature,25,solo,false,indoor,false,true
+syn_u0640,San Francisco,CA,sports/fitness|zoo,120,friends,false,outdoor,false,true
+syn_u0641,Los Angeles,CA,hiking/nature|park,75,couple,false,mixed,false,true
+syn_u0642,Boston,MA,hiking/nature|gallery|park,75,couple,false,outdoor,false,true
+syn_u0643,Chicago,IL,theatre|aquarium|museum|amusement,40,friends,false,indoor,false,true
+syn_u0644,San Antonio,TX,sports/fitness|gallery|cinema,120,couple,false,indoor,false,true
+syn_u0645,Phoenix,AZ,theatre|cinema|attraction,75,couple,false,mixed,false,true
+syn_u0646,San Antonio,TX,theatre|cinema,75,solo,false,mixed,false,true
+syn_u0647,Los Angeles,CA,museum|library,40,couple,false,indoor,false,true
+syn_u0648,San Diego,CA,library|park,120,couple,false,outdoor,false,true
+syn_u0649,Dallas,TX,attraction|sports/fitness|cinema|library,120,couple,false,outdoor,true,true
+syn_u0650,New York,NY,sports/fitness|hiking/nature,25,couple,false,indoor,false,true
+syn_u0651,Houston,TX,zoo|amusement|park|hiking/nature,120,solo,false,outdoor,false,true
+syn_u0652,Houston,TX,cinema|theatre|gallery,75,couple,false,outdoor,false,true
+syn_u0653,Chicago,IL,amusement|aquarium|library,25,couple,false,mixed,false,true
+syn_u0654,Los Angeles,CA,zoo|library|attraction,75,friends,false,mixed,false,true
+syn_u0655,Dallas,TX,library|hiking/nature|aquarium,75,solo,false,mixed,false,true
+syn_u0656,San Diego,CA,park|hiking/nature,120,friends,false,mixed,false,true
+syn_u0657,Chicago,IL,library|hiking/nature,15,solo,false,mixed,false,true
+syn_u0658,Chicago,IL,gallery|amusement|theatre,15,couple,false,mixed,false,true
+syn_u0659,Houston,TX,park|library|amusement,75,solo,false,mixed,true,true
+syn_u0660,Phoenix,AZ,cinema|park,0,family,true,outdoor,false,true
+syn_u0661,New York,NY,park|gallery,75,solo,false,indoor,false,true
+syn_u0662,San Antonio,TX,museum|attraction|amusement|library,75,friends,false,outdoor,false,true
+syn_u0663,Boston,MA,attraction|park|aquarium,40,solo,false,indoor,false,true
+syn_u0664,Los Angeles,CA,aquarium|gallery|library|cinema,25,family,true,indoor,false,true
+syn_u0665,San Francisco,CA,cinema|museum|aquarium|hiking/nature,0,solo,false,outdoor,false,true
+syn_u0666,San Diego,CA,theatre|zoo|gallery,15,friends,false,indoor,false,true
+syn_u0667,San Francisco,CA,park|amusement|attraction|theatre,15,solo,false,indoor,false,true
+syn_u0668,Dallas,TX,attraction|zoo|park,40,friends,false,outdoor,false,true
+syn_u0669,Philadelphia,PA,park|sports/fitness|cinema,120,solo,false,indoor,false,true
+syn_u0670,San Antonio,TX,attraction|amusement,120,solo,false,indoor,false,true
+syn_u0671,San Diego,CA,park|attraction|zoo,0,friends,false,indoor,false,true
+syn_u0672,Boston,MA,gallery|amusement|hiking/nature|attraction,0,family,true,indoor,false,true
+syn_u0673,New York,NY,zoo|library|park,40,family,true,outdoor,true,true
+syn_u0674,Los Angeles,CA,zoo|aquarium|attraction|hiking/nature,120,couple,false,mixed,false,true
+syn_u0675,Los Angeles,CA,theatre|amusement|attraction|hiking/nature,75,solo,false,outdoor,false,true
+syn_u0676,Philadelphia,PA,library|sports/fitness|zoo|theatre,0,family,true,mixed,false,true
+syn_u0677,San Diego,CA,amusement|theatre|aquarium|attraction,25,family,true,indoor,false,true
+syn_u0678,Seattle,WA,library|park|hiking/nature|attraction,40,solo,false,mixed,false,true
+syn_u0679,San Antonio,TX,library|hiking/nature|gallery,75,solo,false,outdoor,false,true
+syn_u0680,San Francisco,CA,amusement|museum|gallery|hiking/nature,75,family,true,mixed,false,true
+syn_u0681,Los Angeles,CA,museum|attraction,75,solo,false,mixed,false,true
+syn_u0682,Los Angeles,CA,zoo|museum,25,solo,false,indoor,false,true
+syn_u0683,Chicago,IL,sports/fitness|hiking/nature|theatre,15,family,true,indoor,false,true
+syn_u0684,Houston,TX,gallery|theatre|attraction|museum,25,couple,false,indoor,false,true
+syn_u0685,Dallas,TX,zoo|theatre,15,solo,false,mixed,false,true
+syn_u0686,Phoenix,AZ,sports/fitness|aquarium,0,solo,false,outdoor,false,true
+syn_u0687,Boston,MA,museum|park,0,friends,false,mixed,false,true
+syn_u0688,New York,NY,sports/fitness|park|zoo,15,friends,false,indoor,false,true
+syn_u0689,Dallas,TX,park|gallery|sports/fitness,75,friends,false,outdoor,false,true
+syn_u0690,Seattle,WA,theatre|sports/fitness,25,couple,false,indoor,false,true
+syn_u0691,San Diego,CA,museum|zoo,120,family,true,outdoor,false,true
+syn_u0692,Seattle,WA,park|attraction|museum,120,couple,false,indoor,false,true
+syn_u0693,San Diego,CA,theatre|attraction|hiking/nature,25,couple,false,indoor,false,true
+syn_u0694,Chicago,IL,zoo|hiking/nature|gallery|attraction,75,family,true,outdoor,false,true
+syn_u0695,Dallas,TX,park|zoo|museum,120,family,true,mixed,false,true
+syn_u0696,Los Angeles,CA,attraction|sports/fitness|cinema|museum,15,solo,false,outdoor,true,true
+syn_u0697,Los Angeles,CA,sports/fitness|theatre,15,family,true,indoor,true,true
+syn_u0698,Philadelphia,PA,library|theatre|attraction,0,solo,false,indoor,false,true
+syn_u0699,Dallas,TX,aquarium|gallery|theatre|sports/fitness,40,solo,false,indoor,false,true
+syn_u0700,Phoenix,AZ,sports/fitness|aquarium|park|hiking/nature,15,couple,false,mixed,false,true
+syn_u0701,Boston,MA,library|gallery|cinema,40,family,true,outdoor,false,true
+syn_u0702,San Francisco,CA,sports/fitness|attraction|hiking/nature|aquarium,0,couple,false,outdoor,false,true
+syn_u0703,San Francisco,CA,hiking/nature|aquarium|zoo|attraction,15,couple,false,indoor,false,true
+syn_u0704,Seattle,WA,hiking/nature|zoo|park|amusement,40,family,true,outdoor,false,true
+syn_u0705,Houston,TX,theatre|park|cinema|attraction,0,family,true,mixed,false,true
+syn_u0706,New York,NY,zoo|attraction,40,solo,false,indoor,false,true
+syn_u0707,Los Angeles,CA,sports/fitness|cinema|hiking/nature,15,couple,false,indoor,false,true
+syn_u0708,New York,NY,museum|amusement|gallery,40,couple,false,outdoor,true,true
+syn_u0709,Boston,MA,amusement|hiking/nature|attraction,75,family,true,mixed,false,true
+syn_u0710,Philadelphia,PA,sports/fitness|aquarium|cinema|library,120,couple,false,indoor,false,true
+syn_u0711,Seattle,WA,library|attraction,40,couple,false,indoor,false,true
+syn_u0712,San Francisco,CA,zoo|park,120,friends,false,indoor,false,true
+syn_u0713,Phoenix,AZ,sports/fitness|cinema|hiking/nature|amusement,25,solo,false,indoor,false,true
+syn_u0714,Dallas,TX,sports/fitness|library|museum|theatre,40,family,true,indoor,false,true
+syn_u0715,San Francisco,CA,amusement|zoo|theatre|museum,40,couple,false,indoor,false,true
+syn_u0716,Boston,MA,library|amusement,15,friends,false,indoor,false,true
+syn_u0717,Philadelphia,PA,cinema|museum|attraction,25,solo,false,indoor,false,true
+syn_u0718,Boston,MA,library|park|cinema|amusement,75,solo,false,indoor,false,true
+syn_u0719,Boston,MA,museum|theatre|sports/fitness|library,120,friends,false,indoor,true,true
+syn_u0720,San Francisco,CA,aquarium|attraction|amusement,15,family,true,outdoor,true,true
+syn_u0721,San Diego,CA,gallery|zoo|attraction|aquarium,25,family,true,mixed,false,true
+syn_u0722,Boston,MA,attraction|theatre,0,friends,false,outdoor,false,true
+syn_u0723,Phoenix,AZ,zoo|park|hiking/nature|sports/fitness,15,friends,false,mixed,false,true
+syn_u0724,San Francisco,CA,sports/fitness|park,25,solo,false,indoor,false,true
+syn_u0725,San Antonio,TX,park|sports/fitness|library|zoo,120,friends,false,outdoor,false,true
+syn_u0726,Houston,TX,sports/fitness|attraction|theatre|park,40,family,true,indoor,true,true
+syn_u0727,Philadelphia,PA,library|gallery|park|theatre,25,couple,false,indoor,false,true
+syn_u0728,Phoenix,AZ,theatre|amusement|library,75,solo,false,indoor,false,true
+syn_u0729,Seattle,WA,aquarium|sports/fitness|amusement,0,friends,false,outdoor,false,true
+syn_u0730,Los Angeles,CA,cinema|sports/fitness|attraction|hiking/nature,15,family,true,indoor,false,true
+syn_u0731,Chicago,IL,sports/fitness|attraction,15,family,true,indoor,false,true
+syn_u0732,Los Angeles,CA,theatre|amusement|aquarium|zoo,75,friends,false,outdoor,false,true
+syn_u0733,San Francisco,CA,cinema|gallery|sports/fitness|attraction,15,couple,false,outdoor,false,true
+syn_u0734,San Francisco,CA,library|gallery,15,couple,false,mixed,false,true
+syn_u0735,Boston,MA,library|hiking/nature,75,solo,false,indoor,true,true
+syn_u0736,Seattle,WA,amusement|library,0,couple,false,mixed,false,true
+syn_u0737,New York,NY,amusement|theatre|cinema|park,0,couple,false,indoor,false,true
+syn_u0738,San Antonio,TX,hiking/nature|library|cinema,120,friends,false,mixed,false,true
+syn_u0739,Phoenix,AZ,hiking/nature|theatre|sports/fitness,0,solo,false,outdoor,false,true
+syn_u0740,Los Angeles,CA,theatre|gallery,0,friends,false,outdoor,false,true
+syn_u0741,San Francisco,CA,cinema|aquarium,75,family,true,mixed,false,true
+syn_u0742,Los Angeles,CA,amusement|aquarium,75,couple,false,mixed,false,true
+syn_u0743,Houston,TX,theatre|gallery|aquarium,75,family,true,outdoor,false,true
+syn_u0744,Chicago,IL,aquarium|hiking/nature|sports/fitness|park,40,solo,false,indoor,false,true
+syn_u0745,New York,NY,hiking/nature|park|museum,0,friends,false,outdoor,false,true
+syn_u0746,San Diego,CA,library|park,0,couple,false,indoor,false,true
+syn_u0747,San Diego,CA,library|zoo|sports/fitness,75,couple,false,mixed,false,true
+syn_u0748,Boston,MA,attraction|aquarium|park|zoo,15,friends,false,indoor,false,true
+syn_u0749,Houston,TX,library|sports/fitness,40,friends,false,outdoor,false,true
+syn_u0750,Phoenix,AZ,gallery|cinema|library,15,family,true,mixed,false,true
+syn_u0751,Philadelphia,PA,zoo|amusement|hiking/nature|attraction,40,couple,false,mixed,false,true
+syn_u0752,San Diego,CA,theatre|attraction|sports/fitness,0,couple,false,mixed,false,true
+syn_u0753,Houston,TX,hiking/nature|museum,15,solo,false,indoor,false,true
+syn_u0754,Houston,TX,park|hiking/nature|aquarium|theatre,0,family,true,mixed,false,true
+syn_u0755,San Francisco,CA,library|museum,0,solo,false,indoor,false,true
+syn_u0756,Philadelphia,PA,sports/fitness|aquarium|museum|theatre,0,couple,false,mixed,false,true
+syn_u0757,San Francisco,CA,library|aquarium,25,solo,false,indoor,false,true
+syn_u0758,Boston,MA,park|hiking/nature,15,solo,false,indoor,false,true
+syn_u0759,Boston,MA,park|hiking/nature,75,solo,false,mixed,false,true
+syn_u0760,San Diego,CA,sports/fitness|museum|zoo,75,family,true,mixed,false,true
+syn_u0761,Seattle,WA,sports/fitness|museum|amusement|library,15,couple,false,mixed,false,true
+syn_u0762,Dallas,TX,attraction|sports/fitness|library,0,couple,false,indoor,true,true
+syn_u0763,New York,NY,aquarium|theatre|amusement|museum,15,couple,false,indoor,false,true
+syn_u0764,Philadelphia,PA,cinema|attraction,120,friends,false,mixed,false,true
+syn_u0765,San Diego,CA,attraction|theatre,0,solo,false,indoor,false,true
+syn_u0766,Chicago,IL,gallery|hiking/nature|aquarium|cinema,0,solo,false,mixed,false,true
+syn_u0767,San Diego,CA,hiking/nature|library|cinema,0,solo,false,mixed,false,true
+syn_u0768,Houston,TX,amusement|theatre|attraction,75,family,true,outdoor,false,true
+syn_u0769,Dallas,TX,attraction|amusement|museum|sports/fitness,120,family,true,outdoor,false,true
+syn_u0770,Philadelphia,PA,theatre|library,120,family,true,indoor,false,true
+syn_u0771,Chicago,IL,amusement|attraction|hiking/nature,120,solo,false,outdoor,false,true
+syn_u0772,San Diego,CA,sports/fitness|gallery|library,120,family,true,indoor,false,true
+syn_u0773,Philadelphia,PA,cinema|attraction|zoo|museum,25,friends,false,mixed,false,true
+syn_u0774,San Diego,CA,library|museum|cinema,75,friends,false,mixed,false,true
+syn_u0775,Los Angeles,CA,sports/fitness|hiking/nature|attraction,15,solo,false,outdoor,false,true
+syn_u0776,San Diego,CA,aquarium|zoo|hiking/nature,40,friends,false,indoor,false,true
+syn_u0777,Phoenix,AZ,attraction|hiking/nature,40,family,true,indoor,false,true
+syn_u0778,Chicago,IL,cinema|library|amusement|museum,40,couple,false,outdoor,false,true
+syn_u0779,Chicago,IL,hiking/nature|attraction|library,75,family,true,indoor,false,true
+syn_u0780,Phoenix,AZ,sports/fitness|library,120,family,true,outdoor,false,true
+syn_u0781,Los Angeles,CA,theatre|amusement|attraction|hiking/nature,0,couple,false,indoor,false,true
+syn_u0782,San Francisco,CA,attraction|gallery|cinema,75,couple,false,mixed,false,true
+syn_u0783,Boston,MA,aquarium|gallery,120,couple,false,mixed,true,true
+syn_u0784,Seattle,WA,library|zoo,75,family,true,indoor,false,true
+syn_u0785,Philadelphia,PA,amusement|attraction|gallery|sports/fitness,120,solo,false,mixed,false,true
+syn_u0786,Philadelphia,PA,hiking/nature|attraction|zoo|sports/fitness,75,couple,false,outdoor,false,true
+syn_u0787,Los Angeles,CA,theatre|museum|zoo|hiking/nature,15,friends,false,outdoor,false,true
+syn_u0788,Phoenix,AZ,attraction|hiking/nature|cinema,120,family,true,outdoor,false,true
+syn_u0789,Chicago,IL,park|zoo|attraction|cinema,0,solo,false,outdoor,false,true
+syn_u0790,San Antonio,TX,cinema|hiking/nature|attraction|library,40,solo,false,indoor,false,true
+syn_u0791,New York,NY,zoo|gallery|museum,25,solo,false,indoor,false,true
+syn_u0792,San Antonio,TX,amusement|hiking/nature|gallery|sports/fitness,15,friends,false,outdoor,false,true
+syn_u0793,Chicago,IL,attraction|gallery|park,75,family,true,mixed,false,true
+syn_u0794,Houston,TX,aquarium|park|sports/fitness,0,friends,false,outdoor,false,true
+syn_u0795,Los Angeles,CA,cinema|zoo|gallery|amusement,40,couple,false,outdoor,false,true
+syn_u0796,Philadelphia,PA,gallery|museum|attraction,15,family,true,mixed,false,true
+syn_u0797,San Francisco,CA,library|aquarium|hiking/nature,120,couple,false,indoor,false,true
+syn_u0798,Houston,TX,amusement|park|hiking/nature,25,couple,false,mixed,false,true
+syn_u0799,Los Angeles,CA,library|theatre|museum,120,solo,false,indoor,false,true
+syn_u0800,Philadelphia,PA,cinema|sports/fitness|attraction,25,family,true,outdoor,false,true
+syn_u0801,Philadelphia,PA,sports/fitness|cinema,25,family,true,indoor,false,true
+syn_u0802,New York,NY,museum|zoo|hiking/nature|gallery,40,solo,false,outdoor,false,true
+syn_u0803,Dallas,TX,cinema|park|museum|theatre,40,couple,false,mixed,false,true
+syn_u0804,San Antonio,TX,theatre|sports/fitness|amusement,40,friends,false,indoor,false,true
+syn_u0805,Dallas,TX,cinema|sports/fitness|gallery|zoo,15,family,true,indoor,false,true
+syn_u0806,Dallas,TX,park|gallery,120,solo,false,mixed,false,true
+syn_u0807,Boston,MA,museum|library|cinema,25,friends,false,outdoor,false,true
+syn_u0808,Los Angeles,CA,aquarium|zoo|sports/fitness,15,solo,false,mixed,false,true
+syn_u0809,Los Angeles,CA,zoo|park|hiking/nature|sports/fitness,0,couple,false,mixed,false,true
+syn_u0810,Los Angeles,CA,aquarium|theatre|hiking/nature|amusement,15,family,true,mixed,false,true
+syn_u0811,New York,NY,sports/fitness|museum,120,couple,false,indoor,false,true
+syn_u0812,Phoenix,AZ,zoo|cinema|aquarium|gallery,40,solo,false,indoor,false,true
+syn_u0813,New York,NY,theatre|library|sports/fitness,0,solo,false,outdoor,true,true
+syn_u0814,New York,NY,gallery|zoo|cinema|amusement,120,friends,false,outdoor,false,true
+syn_u0815,Los Angeles,CA,attraction|aquarium|gallery|museum,25,couple,false,outdoor,false,true
+syn_u0816,New York,NY,attraction|library|aquarium|cinema,0,couple,false,outdoor,true,true
+syn_u0817,San Antonio,TX,gallery|sports/fitness|library,25,couple,false,outdoor,false,true
+syn_u0818,Los Angeles,CA,zoo|hiking/nature,25,family,true,indoor,false,true
+syn_u0819,Boston,MA,amusement|cinema|park,0,friends,false,indoor,false,true
+syn_u0820,Philadelphia,PA,sports/fitness|museum|gallery,25,family,true,outdoor,false,true
+syn_u0821,Chicago,IL,sports/fitness|museum|cinema,25,solo,false,indoor,true,true
+syn_u0822,Dallas,TX,cinema|aquarium,75,couple,false,mixed,false,true
+syn_u0823,Phoenix,AZ,aquarium|theatre|zoo|park,0,family,true,indoor,false,true
+syn_u0824,San Francisco,CA,attraction|sports/fitness|cinema|amusement,120,couple,false,indoor,false,true
+syn_u0825,Houston,TX,theatre|cinema,120,couple,false,indoor,false,true
+syn_u0826,Phoenix,AZ,cinema|park,0,friends,false,outdoor,false,true
+syn_u0827,San Antonio,TX,gallery|aquarium|amusement,120,friends,false,mixed,true,true
+syn_u0828,New York,NY,sports/fitness|amusement|library|hiking/nature,15,solo,false,indoor,false,true
+syn_u0829,Houston,TX,sports/fitness|attraction|cinema|amusement,120,family,true,indoor,false,true
+syn_u0830,Dallas,TX,museum|hiking/nature|gallery|aquarium,0,friends,false,mixed,false,true
+syn_u0831,Phoenix,AZ,sports/fitness|museum|park,25,friends,false,outdoor,false,true
+syn_u0832,Los Angeles,CA,hiking/nature|gallery|theatre|aquarium,0,family,true,indoor,false,true
+syn_u0833,Seattle,WA,attraction|theatre|park,120,friends,false,indoor,false,true
+syn_u0834,Los Angeles,CA,library|hiking/nature|zoo|theatre,40,couple,false,mixed,false,true
+syn_u0835,San Diego,CA,cinema|hiking/nature,15,couple,false,mixed,false,true
+syn_u0836,San Diego,CA,theatre|attraction|museum,120,friends,false,indoor,false,true
+syn_u0837,Houston,TX,museum|library,40,family,true,outdoor,false,true
+syn_u0838,Los Angeles,CA,gallery|attraction,25,friends,false,mixed,false,true
+syn_u0839,New York,NY,museum|amusement|hiking/nature,75,friends,false,outdoor,false,true
+syn_u0840,Seattle,WA,zoo|museum|hiking/nature,120,couple,false,mixed,false,true
+syn_u0841,New York,NY,hiking/nature|museum|amusement,15,friends,false,indoor,false,true
+syn_u0842,Boston,MA,gallery|library|sports/fitness,40,solo,false,outdoor,false,true
+syn_u0843,New York,NY,library|zoo,0,family,true,mixed,false,true
+syn_u0844,New York,NY,park|cinema,0,solo,false,outdoor,false,true
+syn_u0845,Phoenix,AZ,gallery|attraction|zoo,40,solo,false,indoor,false,true
+syn_u0846,Dallas,TX,park|museum|cinema|hiking/nature,75,friends,false,outdoor,true,true
+syn_u0847,San Antonio,TX,zoo|amusement|hiking/nature,15,friends,false,mixed,false,true
+syn_u0848,Philadelphia,PA,park|attraction,120,solo,false,indoor,true,true
+syn_u0849,Philadelphia,PA,library|amusement,0,couple,false,mixed,false,true
+syn_u0850,Phoenix,AZ,theatre|attraction,15,couple,false,outdoor,false,true
+syn_u0851,San Francisco,CA,gallery|museum|aquarium,40,couple,false,outdoor,false,true
+syn_u0852,San Antonio,TX,park|hiking/nature|cinema|sports/fitness,25,couple,false,mixed,false,true
+syn_u0853,San Diego,CA,amusement|hiking/nature|museum|sports/fitness,0,family,true,outdoor,false,true
+syn_u0854,Chicago,IL,theatre|hiking/nature,75,friends,false,indoor,false,true
+syn_u0855,Phoenix,AZ,museum|sports/fitness|attraction|amusement,120,couple,false,indoor,false,true
+syn_u0856,San Antonio,TX,amusement|attraction|theatre,40,solo,false,outdoor,false,true
+syn_u0857,San Diego,CA,sports/fitness|cinema|attraction|hiking/nature,120,family,true,indoor,true,true
+syn_u0858,New York,NY,park|hiking/nature|theatre,25,solo,false,mixed,false,true
+syn_u0859,Philadelphia,PA,museum|theatre,40,friends,false,outdoor,false,true
+syn_u0860,New York,NY,hiking/nature|zoo,120,friends,false,indoor,false,true
+syn_u0861,Seattle,WA,attraction|cinema|amusement,120,couple,false,indoor,false,true
+syn_u0862,San Francisco,CA,theatre|attraction|library,40,family,true,indoor,false,true
+syn_u0863,Houston,TX,hiking/nature|museum|gallery|aquarium,40,couple,false,mixed,false,true
+syn_u0864,San Diego,CA,aquarium|amusement,75,solo,false,outdoor,false,true
+syn_u0865,New York,NY,sports/fitness|attraction|zoo|amusement,120,friends,false,mixed,true,true
+syn_u0866,Dallas,TX,gallery|aquarium,0,solo,false,indoor,false,true
+syn_u0867,Los Angeles,CA,museum|gallery|amusement,25,friends,false,indoor,false,true
+syn_u0868,Seattle,WA,cinema|attraction,120,friends,false,indoor,false,true
+syn_u0869,Chicago,IL,gallery|aquarium|hiking/nature|library,0,friends,false,mixed,false,true
+syn_u0870,San Antonio,TX,theatre|aquarium,75,friends,false,outdoor,false,true
+syn_u0871,Chicago,IL,theatre|zoo|gallery,25,family,true,indoor,false,true
+syn_u0872,Boston,MA,zoo|attraction,25,couple,false,outdoor,false,true
+syn_u0873,Seattle,WA,sports/fitness|amusement|aquarium|park,0,friends,false,outdoor,true,true
+syn_u0874,Philadelphia,PA,amusement|park|gallery|cinema,25,friends,false,indoor,false,true
+syn_u0875,San Francisco,CA,sports/fitness|theatre|library|hiking/nature,75,friends,false,indoor,false,true
+syn_u0876,Houston,TX,aquarium|zoo|library,15,solo,false,outdoor,false,true
+syn_u0877,Phoenix,AZ,hiking/nature|library|museum|attraction,120,couple,false,mixed,false,true
+syn_u0878,Seattle,WA,museum|park,15,couple,false,mixed,false,true
+syn_u0879,Phoenix,AZ,park|sports/fitness,75,solo,false,mixed,false,true
+syn_u0880,Phoenix,AZ,park|theatre|aquarium|library,40,solo,false,mixed,false,true
+syn_u0881,New York,NY,park|sports/fitness|zoo|aquarium,75,solo,false,outdoor,true,true
+syn_u0882,Phoenix,AZ,aquarium|amusement|cinema,25,couple,false,mixed,false,true
+syn_u0883,Boston,MA,park|sports/fitness|museum|amusement,15,couple,false,outdoor,true,true
+syn_u0884,Seattle,WA,zoo|theatre|attraction,25,friends,false,mixed,false,true
+syn_u0885,San Francisco,CA,park|aquarium|zoo,25,friends,false,outdoor,false,true
+syn_u0886,Philadelphia,PA,zoo|cinema|hiking/nature|attraction,15,friends,false,indoor,false,true
+syn_u0887,Boston,MA,library|hiking/nature|museum|amusement,25,solo,false,indoor,false,true
+syn_u0888,Los Angeles,CA,theatre|sports/fitness,40,solo,false,outdoor,false,true
+syn_u0889,San Antonio,TX,hiking/nature|theatre|museum,75,couple,false,mixed,false,true
+syn_u0890,Seattle,WA,hiking/nature|park,0,friends,false,indoor,false,true
+syn_u0891,San Diego,CA,hiking/nature|amusement,75,friends,false,mixed,false,true
+syn_u0892,Dallas,TX,cinema|sports/fitness,15,couple,false,mixed,false,true
+syn_u0893,Philadelphia,PA,aquarium|attraction|park,120,friends,false,outdoor,false,true
+syn_u0894,Philadelphia,PA,cinema|hiking/nature|museum,0,couple,false,outdoor,false,true
+syn_u0895,Seattle,WA,attraction|gallery,25,solo,false,mixed,false,true
+syn_u0896,Los Angeles,CA,gallery|sports/fitness|attraction|cinema,0,friends,false,mixed,false,true
+syn_u0897,Philadelphia,PA,attraction|gallery|museum,120,solo,false,indoor,false,true
+syn_u0898,San Antonio,TX,aquarium|theatre|amusement,25,friends,false,outdoor,false,true
+syn_u0899,Boston,MA,museum|sports/fitness,75,friends,false,outdoor,false,true
+syn_u0900,San Francisco,CA,zoo|cinema,0,solo,false,indoor,true,true
+syn_u0901,Phoenix,AZ,attraction|museum|zoo|amusement,0,solo,false,mixed,false,true
+syn_u0902,San Antonio,TX,hiking/nature|museum|aquarium|zoo,15,friends,false,indoor,false,true
+syn_u0903,Seattle,WA,zoo|hiking/nature,25,family,true,mixed,false,true
+syn_u0904,Dallas,TX,amusement|cinema,0,family,true,mixed,false,true
+syn_u0905,San Francisco,CA,library|zoo,40,solo,false,mixed,false,true
+syn_u0906,Houston,TX,museum|theatre,15,couple,false,outdoor,false,true
+syn_u0907,New York,NY,theatre|amusement|museum,25,friends,false,indoor,false,true
+syn_u0908,San Antonio,TX,library|museum|park,120,solo,false,outdoor,true,true
+syn_u0909,San Antonio,TX,library|park,75,friends,false,indoor,false,true
+syn_u0910,San Antonio,TX,library|amusement,75,friends,false,outdoor,false,true
+syn_u0911,New York,NY,theatre|zoo,40,solo,false,indoor,false,true
+syn_u0912,San Diego,CA,zoo|amusement|hiking/nature|attraction,120,family,true,indoor,true,true
+syn_u0913,Chicago,IL,hiking/nature|gallery,120,solo,false,indoor,false,true
+syn_u0914,Chicago,IL,zoo|library,40,family,true,mixed,false,true
+syn_u0915,New York,NY,cinema|amusement,15,friends,false,outdoor,false,true
+syn_u0916,San Francisco,CA,theatre|museum,25,family,true,mixed,false,true
+syn_u0917,Dallas,TX,hiking/nature|zoo|gallery|attraction,75,friends,false,indoor,true,true
+syn_u0918,Boston,MA,sports/fitness|hiking/nature,75,solo,false,outdoor,false,true
+syn_u0919,Houston,TX,theatre|aquarium,0,solo,false,mixed,false,true
+syn_u0920,New York,NY,hiking/nature|library|theatre|cinema,0,family,true,mixed,false,true
+syn_u0921,San Diego,CA,hiking/nature|park|museum|gallery,120,friends,false,mixed,false,true
+syn_u0922,Seattle,WA,park|cinema|aquarium,40,friends,false,indoor,false,true
+syn_u0923,Chicago,IL,gallery|hiking/nature,40,couple,false,mixed,false,true
+syn_u0924,Los Angeles,CA,hiking/nature|theatre|museum,0,friends,false,indoor,false,true
+syn_u0925,Seattle,WA,cinema|amusement|library|museum,25,friends,false,indoor,false,true
+syn_u0926,San Diego,CA,museum|library|amusement|hiking/nature,15,solo,false,outdoor,false,true
+syn_u0927,San Francisco,CA,aquarium|hiking/nature|zoo|attraction,25,solo,false,indoor,false,true
+syn_u0928,San Antonio,TX,attraction|gallery|cinema|aquarium,75,solo,false,mixed,false,true
+syn_u0929,San Diego,CA,park|aquarium|gallery,75,family,true,outdoor,false,true
+syn_u0930,San Antonio,TX,hiking/nature|gallery|theatre|sports/fitness,25,solo,false,indoor,false,true
+syn_u0931,Chicago,IL,amusement|cinema|aquarium|gallery,120,solo,false,mixed,false,true
+syn_u0932,San Francisco,CA,gallery|park,15,friends,false,indoor,false,true
+syn_u0933,Chicago,IL,attraction|zoo,0,family,true,indoor,false,true
+syn_u0934,San Antonio,TX,gallery|attraction|cinema,75,friends,false,indoor,false,true
+syn_u0935,San Francisco,CA,gallery|museum|hiking/nature|library,120,friends,false,indoor,false,true
+syn_u0936,Boston,MA,amusement|museum|sports/fitness|zoo,15,couple,false,outdoor,true,true
+syn_u0937,Los Angeles,CA,zoo|gallery|library,120,friends,false,indoor,false,true
+syn_u0938,Chicago,IL,theatre|museum,75,friends,false,outdoor,false,true
+syn_u0939,Phoenix,AZ,theatre|sports/fitness,15,couple,false,mixed,false,true
+syn_u0940,San Antonio,TX,attraction|theatre|museum|amusement,15,family,true,mixed,false,true
+syn_u0941,San Francisco,CA,amusement|library|sports/fitness,75,family,true,indoor,false,true
+syn_u0942,Philadelphia,PA,cinema|library|gallery|zoo,0,couple,false,indoor,true,true
+syn_u0943,San Francisco,CA,cinema|zoo|aquarium,25,couple,false,outdoor,false,true
+syn_u0944,Chicago,IL,library|museum,75,couple,false,mixed,false,true
+syn_u0945,San Diego,CA,attraction|sports/fitness|aquarium,75,family,true,mixed,false,true
+syn_u0946,Houston,TX,museum|gallery,15,solo,false,mixed,false,true
+syn_u0947,San Francisco,CA,zoo|library|aquarium|museum,75,solo,false,indoor,false,true
+syn_u0948,Dallas,TX,attraction|gallery,0,couple,false,mixed,false,true
+syn_u0949,Philadelphia,PA,cinema|zoo,120,friends,false,outdoor,true,true
+syn_u0950,San Francisco,CA,zoo|library,15,friends,false,mixed,false,true
+syn_u0951,Houston,TX,gallery|museum|sports/fitness,0,friends,false,outdoor,true,true
+syn_u0952,Phoenix,AZ,gallery|theatre,0,friends,false,mixed,false,true
+syn_u0953,Philadelphia,PA,zoo|park,40,family,true,outdoor,false,true
+syn_u0954,Los Angeles,CA,hiking/nature|sports/fitness,40,solo,false,outdoor,false,true
+syn_u0955,Houston,TX,sports/fitness|zoo|aquarium,0,solo,false,mixed,false,true
+syn_u0956,Seattle,WA,aquarium|museum|zoo,25,friends,false,indoor,false,true
+syn_u0957,Los Angeles,CA,park|sports/fitness|gallery|amusement,75,family,true,mixed,false,true
+syn_u0958,San Diego,CA,aquarium|hiking/nature|sports/fitness|cinema,120,solo,false,indoor,false,true
+syn_u0959,Los Angeles,CA,museum|amusement|aquarium,75,friends,false,outdoor,false,true
+syn_u0960,San Diego,CA,attraction|hiking/nature|museum|park,0,solo,false,mixed,true,true
+syn_u0961,San Diego,CA,library|cinema,15,family,true,outdoor,false,true
+syn_u0962,New York,NY,park|cinema|museum,15,couple,false,outdoor,false,true
+syn_u0963,Philadelphia,PA,cinema|hiking/nature|gallery|zoo,0,couple,false,outdoor,false,true
+syn_u0964,Seattle,WA,cinema|theatre|zoo,40,family,true,indoor,false,true
+syn_u0965,Dallas,TX,sports/fitness|zoo,0,couple,false,outdoor,false,true
+syn_u0966,Seattle,WA,aquarium|gallery|cinema|amusement,120,friends,false,mixed,false,true
+syn_u0967,Dallas,TX,museum|library|hiking/nature,25,solo,false,indoor,false,true
+syn_u0968,San Francisco,CA,park|aquarium,25,solo,false,indoor,false,true
+syn_u0969,Los Angeles,CA,park|gallery|attraction|library,25,couple,false,outdoor,false,true
+syn_u0970,San Diego,CA,gallery|park,120,couple,false,mixed,false,true
+syn_u0971,San Francisco,CA,theatre|park,0,friends,false,mixed,false,true
+syn_u0972,New York,NY,zoo|cinema,25,friends,false,indoor,false,true
+syn_u0973,San Francisco,CA,zoo|hiking/nature|aquarium|library,0,friends,false,mixed,false,true
+syn_u0974,San Diego,CA,theatre|gallery|museum,0,friends,false,indoor,false,true
+syn_u0975,Seattle,WA,hiking/nature|aquarium|theatre,0,solo,false,mixed,false,true
+syn_u0976,Boston,MA,museum|library,0,solo,false,indoor,false,true
+syn_u0977,Phoenix,AZ,zoo|hiking/nature|aquarium|cinema,0,solo,false,mixed,false,true
+syn_u0978,Los Angeles,CA,aquarium|sports/fitness,120,solo,false,outdoor,false,true
+syn_u0979,Phoenix,AZ,cinema|gallery|park,25,couple,false,mixed,false,true
+syn_u0980,Dallas,TX,museum|park|sports/fitness,120,couple,false,outdoor,false,true
+syn_u0981,Houston,TX,library|museum|park,0,couple,false,indoor,false,true
+syn_u0982,San Antonio,TX,hiking/nature|library,75,family,true,mixed,false,true
+syn_u0983,Phoenix,AZ,museum|hiking/nature,25,friends,false,outdoor,false,true
+syn_u0984,Houston,TX,hiking/nature|amusement,25,couple,false,mixed,false,true
+syn_u0985,New York,NY,park|sports/fitness|hiking/nature,40,friends,false,outdoor,false,true
+syn_u0986,Boston,MA,gallery|cinema,75,couple,false,mixed,false,true
+syn_u0987,Phoenix,AZ,zoo|aquarium|attraction,75,couple,false,mixed,false,true
+syn_u0988,Phoenix,AZ,amusement|theatre|park|library,120,solo,false,outdoor,false,true
+syn_u0989,Boston,MA,aquarium|amusement,120,couple,false,mixed,false,true
+syn_u0990,Chicago,IL,amusement|zoo,120,family,true,outdoor,false,true
+syn_u0991,Houston,TX,cinema|zoo,25,family,true,mixed,false,true
+syn_u0992,Dallas,TX,park|zoo,40,family,true,indoor,false,true
+syn_u0993,San Diego,CA,cinema|library|aquarium|park,120,couple,false,outdoor,false,true
+syn_u0994,Philadelphia,PA,theatre|park,40,solo,false,indoor,false,true
+syn_u0995,San Francisco,CA,gallery|park|theatre|library,75,family,true,indoor,false,true
+syn_u0996,Phoenix,AZ,sports/fitness|amusement,40,couple,false,mixed,false,true
+syn_u0997,San Antonio,TX,aquarium|museum|hiking/nature|theatre,0,solo,false,mixed,false,true
+syn_u0998,Seattle,WA,theatre|park,25,family,true,indoor,false,true
+syn_u0999,San Francisco,CA,cinema|park,15,solo,false,outdoor,false,true
+syn_u1000,Philadelphia,PA,hiking/nature|sports/fitness|cinema|gallery,15,family,true,indoor,false,true

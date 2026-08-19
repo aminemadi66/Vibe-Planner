@@ -1,0 +1,190 @@
+{
+  "generated_at_utc": "2026-08-04T10:18:36.896526+00:00",
+  "schema_version": "1.0",
+  "activities": 11630,
+  "cities": [
+    "Boston",
+    "Chicago",
+    "Dallas",
+    "Houston",
+    "Los Angeles",
+    "New York",
+    "Philadelphia",
+    "Phoenix",
+    "San Antonio",
+    "San Diego",
+    "San Francisco",
+    "Seattle"
+  ],
+  "city_count": 12,
+  "categories": {
+    "amusement": 669,
+    "aquarium": 15,
+    "attraction": 840,
+    "cinema": 215,
+    "gallery": 886,
+    "hiking/nature": 430,
+    "library": 636,
+    "museum": 619,
+    "park": 3882,
+    "sports/fitness": 2622,
+    "theatre": 800,
+    "zoo": 16
+  },
+  "synthetic_users": 1000,
+  "synthetic_interactions": 15695,
+  "validation": {
+    "missing_name": 0,
+    "missing_coordinates": 0,
+    "duplicate_osm_ids": 0,
+    "all_synthetic_flags_true": true,
+    "cost_estimates_flagged": true
+  },
+  "overpass_queries": [
+    {
+      "city": "New York",
+      "state": "NY",
+      "bbox": [
+        40.68,
+        -74.05,
+        40.84,
+        -73.88
+      ],
+      "endpoint": "cached local Overpass response",
+      "elements_returned": 2791
+    },
+    {
+      "city": "Los Angeles",
+      "state": "CA",
+      "bbox": [
+        33.92,
+        -118.55,
+        34.15,
+        -118.2
+      ],
+      "endpoint": "cached local Overpass response",
+      "elements_returned": 1864
+    },
+    {
+      "city": "Chicago",
+      "state": "IL",
+      "bbox": [
+        41.75,
+        -87.8,
+        42.02,
+        -87.52
+      ],
+      "endpoint": "cached local Overpass response",
+      "elements_returned": 1908
+    },
+    {
+      "city": "Houston",
+      "state": "TX",
+      "bbox": [
+        29.6,
+        -95.55,
+        29.9,
+        -95.2
+      ],
+      "endpoint": "cached local Overpass response",
+      "elements_returned": 949
+    },
+    {
+      "city": "Phoenix",
+      "state": "AZ",
+      "bbox": [
+        33.4,
+        -112.13,
+        33.53,
+        -112.0
+      ],
+      "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+      "elements_returned": 238
+    },
+    {
+      "city": "Philadelphia",
+      "state": "PA",
+      "bbox": [
+        39.93,
+        -75.23,
+        40.03,
+        -75.1
+      ],
+      "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+      "elements_returned": 719
+    },
+    {
+      "city": "San Antonio",
+      "state": "TX",
+      "bbox": [
+        29.4,
+        -98.53,
+        29.51,
+        -98.4
+      ],
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "elements_returned": 254
+    },
+    {
+      "city": "San Diego",
+      "state": "CA",
+      "bbox": [
+        32.7,
+        -117.2,
+        32.82,
+        -117.08
+      ],
+      "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+      "elements_returned": 408
+    },
+    {
+      "city": "Dallas",
+      "state": "TX",
+      "bbox": [
+        32.73,
+        -96.84,
+        32.84,
+        -96.7
+      ],
+      "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+      "elements_returned": 301
+    },
+    {
+      "city": "San Francisco",
+      "state": "CA",
+      "bbox": [
+        37.74,
+        -122.49,
+        37.81,
+        -122.4
+      ],
+      "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+      "elements_returned": 840
+    },
+    {
+      "city": "Seattle",
+      "state": "WA",
+      "bbox": [
+        47.58,
+        -122.38,
+        47.67,
+        -122.29
+      ],
+      "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+      "elements_returned": 643
+    },
+    {
+      "city": "Boston",
+      "state": "MA",
+      "bbox": [
+        42.33,
+        -71.13,
+        42.38,
+        -71.05
+      ],
+      "endpoint": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+      "elements_returned": 743
+    }
+  ],
+  "license": "ODbL 1.0 for OSM-derived data; synthetic files are CC0-style dataset artifacts."
+}

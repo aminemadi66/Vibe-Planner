@@ -1,0 +1,51 @@
+file,field,description
+activities.csv,activity_id,Stable OpenStreetMap-derived activity identifier
+activities.csv,name,See README for definition and allowed values.
+activities.csv,category,See README for definition and allowed values.
+activities.csv,subcategory,See README for definition and allowed values.
+activities.csv,city,See README for definition and allowed values.
+activities.csv,state,See README for definition and allowed values.
+activities.csv,lat,See README for definition and allowed values.
+activities.csv,lon,See README for definition and allowed values.
+activities.csv,indoor_outdoor,See README for definition and allowed values.
+activities.csv,estimated_cost_usd_min,See README for definition and allowed values.
+activities.csv,estimated_cost_usd_max,See README for definition and allowed values.
+activities.csv,is_estimated,"True if price is a model/default estimate, not observed venue pricing"
+activities.csv,typical_duration_min,See README for definition and allowed values.
+activities.csv,group_suitability,See README for definition and allowed values.
+activities.csv,family_kids_suitable,See README for definition and allowed values.
+activities.csv,wheelchair,See README for definition and allowed values.
+activities.csv,website,See README for definition and allowed values.
+activities.csv,phone,See README for definition and allowed values.
+activities.csv,opening_hours,See README for definition and allowed values.
+activities.csv,source,See README for definition and allowed values.
+activities.csv,source_id,OSM element type/id
+activities.csv,source_url,See README for definition and allowed values.
+activities.csv,data_quality_score,"0–1 completeness heuristic, not an editorial rating"
+users.csv,user_id,See README for definition and allowed values.
+users.csv,home_city,See README for definition and allowed values.
+users.csv,home_state,See README for definition and allowed values.
+users.csv,preferred_categories,See README for definition and allowed values.
+users.csv,budget_usd,See README for definition and allowed values.
+users.csv,group_type,See README for definition and allowed values.
+users.csv,has_kids,See README for definition and allowed values.
+users.csv,indoor_outdoor_preference,See README for definition and allowed values.
+users.csv,wheelchair_need,See README for definition and allowed values.
+users.csv,synthetic,"Always true: generated training data, not real user behavior"
+interactions.csv,interaction_id,See README for definition and allowed values.
+interactions.csv,user_id,See README for definition and allowed values.
+interactions.csv,activity_id,Stable OpenStreetMap-derived activity identifier
+interactions.csv,interaction_type,See README for definition and allowed values.
+interactions.csv,rating,See README for definition and allowed values.
+interactions.csv,event_date,See README for definition and allowed values.
+interactions.csv,weather_context,See README for definition and allowed values.
+interactions.csv,group_type,See README for definition and allowed values.
+interactions.csv,synthetic,"Always true: generated training data, not real user behavior"
+activity_categories.csv,category,See README for definition and allowed values.
+activity_categories.csv,description,See README for definition and allowed values.
+activity_categories.csv,default_duration_min,See README for definition and allowed values.
+activity_categories.csv,cost_values_are_estimated,See README for definition and allowed values.
+weather_suitability.csv,weather_condition,See README for definition and allowed values.
+weather_suitability.csv,preferred_indoor_outdoor,See README for definition and allowed values.
+weather_suitability.csv,recommendation_adjustment,See README for definition and allowed values.
+weather_suitability.csv,note,See README for definition and allowed values.

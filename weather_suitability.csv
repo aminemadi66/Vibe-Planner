@@ -1,0 +1,6 @@
+weather_condition,preferred_indoor_outdoor,recommendation_adjustment,note
+sunny,outdoor,0.20,"Favor parks, nature, zoos, outdoor attractions."
+rain,indoor,0.25,"Favor museums, cinema, theatre, libraries, galleries."
+snow,indoor,0.25,Favor indoor venues; confirm local access.
+hot,indoor,0.15,Favor air-conditioned venues; outdoor water/early options may suit.
+mild,mixed,0.10,No strong indoor/outdoor constraint.
