@@ -1,166 +1,271 @@
-🤖 Weekend Activity Planner — AI-Powered Weekend Activity Recommender
+🤖 Weekend Activity Planner
 
-«An AI-powered personalized weekend activity recommendation system that combines Machine Learning, real-world OpenStreetMap data, weather conditions, user preferences, budget, and Google Calendar availability to recommend suitable activities for users.»
+AI-Powered Personalized Weekend Activity Recommendation System
+
+«Weekend Activity Planner is an end-to-end AI recommendation system that helps users discover suitable weekend activities by combining Machine Learning, real-world OpenStreetMap data, weather conditions, user preferences, budget constraints, and Google Calendar availability.»
+
+---
+
+🏆 Project Highlights
+
+- 🤖 XGBoost-based recommendation model
+- 📍 11,630 real-world places collected from OpenStreetMap
+- 🇺🇸 Coverage across 12 major US cities
+- 👤 1,000 synthetic users
+- ⭐ 15,695 synthetic interactions
+- 🧠 82 engineered features
+- 📊 91.61% Accuracy
+- 🎯 95.51% F1 Score
+- 📈 90.50% ROC-AUC
+- 🌦️ Weather-aware recommendations
+- 📅 Google Calendar integration
+- 🌐 Flask web application
+- ⚡ FastAPI backend services
+- 🗃️ SQLite database
+- 🧪 Automated testing with Pytest
+- 📓 Reproducible Jupyter Notebook workflow
 
 ---
 
 📌 Project Overview
 
-Weekend Activity Planner is an intelligent recommendation system designed to help users find suitable activities for their weekends.
+Choosing an activity for the weekend can depend on many different factors.
 
-Instead of simply displaying a list of places, the system analyzes multiple factors such as:
-
-- 👤 User preferences
-- 📍 User location / city
-- 💰 Budget
-- 🌦️ Weather conditions
-- 🏠 Indoor / outdoor preference
-- 👨‍👩‍👧 Family and group suitability
-- ♿ Accessibility requirements
-- ⭐ Previous user interactions
-- 📅 Available time from Google Calendar
-- 🏷️ Activity categories
-- 📊 Activity quality and historical interaction signals
-
-The Machine Learning model then estimates the probability that a user will prefer an activity and uses that prediction as part of the final recommendation score.
-
----
-
-👨‍💻 Team
-
-Member| GitHub
-Amin| "@YOUR_GITHUB_ID" (https://github.com/YOUR_GITHUB_ID)
-Friend 1| "@FRIEND_1_GITHUB_ID" (https://github.com/FRIEND_1_GITHUB_ID)
-Friend 2| "@FRIEND_2_GITHUB_ID" (https://github.com/FRIEND_2_GITHUB_ID)
-Friend 3| "@FRIEND_3_GITHUB_ID" (https://github.com/FRIEND_3_GITHUB_ID)
-
-«Replace the placeholder GitHub usernames above with the real team members' GitHub IDs.»
-
----
-
-🎯 Problem
-
-Choosing an activity for the weekend can depend on many different conditions.
-
-For example, a user may want:
+A user may want:
 
 - An indoor activity when it is raining.
 - An inexpensive activity when their budget is limited.
 - A family-friendly activity when traveling with children.
-- An accessible location when wheelchair accessibility is required.
+- An accessible activity when accessibility is required.
+- An activity that matches their interests.
 - An activity that fits their available free time.
-- Something similar to activities they previously liked.
+- Something similar to activities they previously enjoyed.
 
-A simple search engine cannot easily combine all of these factors.
+Traditional search systems usually treat these requirements independently.
 
-Weekend Activity Planner attempts to solve this problem using a personalized Machine Learning recommendation pipeline.
+Weekend Activity Planner combines these factors into a personalized recommendation pipeline.
 
----
-
-💡 Main Idea
-
-The system follows this general pipeline:
-
-User Preferences
-       │
-       ├── Budget
-       ├── City
-       ├── Category
-       ├── Group Type
-       ├── Indoor / Outdoor
-       └── Accessibility
-       │
-       ▼
-Activity Dataset
-       │
-       ▼
-Weather Information ───────► Weather Compatibility
-       │
-       ▼
-Google Calendar ───────────► Free Time
-       │
-       ▼
-Feature Engineering
-       │
-       ▼
-XGBoost Recommendation Model
-       │
-       ▼
-Personalized Activity Ranking
-       │
-       ▼
-Top Recommendations
+The system analyzes user preferences, activity characteristics, historical interaction signals, weather conditions, and calendar availability to produce relevant activity recommendations.
 
 ---
 
-🧠 Machine Learning
+🎯 Problem Statement
 
-The recommendation model is based on XGBoost Classification.
+The main problem addressed by this project is:
 
-The training pipeline combines:
+«How can an intelligent system recommend weekend activities that are personalized to a user's preferences, behavior, budget, location, weather conditions, and available time?»
 
-- User information
-- Activity information
-- Historical interactions
-- Ratings
-- Interaction types
-- Weather context
-- Category preferences
-- Indoor/outdoor preferences
-- Budget compatibility
-- Accessibility compatibility
-- Group suitability
+The project approaches this problem as a Machine Learning recommendation task.
+
+Instead of simply returning nearby places, the system attempts to estimate how suitable each activity is for a particular user and then ranks the available activities.
+
+---
+
+💡 Project Goal
+
+The goal of Weekend Activity Planner is to transform weekend planning from a simple search process into an AI-assisted personalized decision system.
+
+Instead of asking:
+
+«"What can I do this weekend?"»
+
+the user can receive recommendations based on:
+
+Who I am
+    +
+What I like
+    +
+Where I am
+    +
+How much I can spend
+    +
+What the weather is like
+    +
+When I am free
+    ↓
+Personalized Recommendations
+
+---
+
+🧠 How the System Works
+
+The complete recommendation pipeline can be summarized as:
+
+                    USER
+                     │
+                     ▼
+            User Preferences
+                     │
+       ┌─────────────┼─────────────┐
+       │             │             │
+       ▼             ▼             ▼
+    Budget         City       Preferences
+       │             │             │
+       └─────────────┼─────────────┘
+                     ▼
+              Activity Dataset
+                     │
+                     ▼
+             Feature Engineering
+                     │
+       ┌─────────────┼─────────────┐
+       │             │             │
+       ▼             ▼             ▼
+    Behavior      Weather       Calendar
+       │             │             │
+       └─────────────┼─────────────┘
+                     ▼
+              XGBoost Model
+                     │
+                     ▼
+            Prediction Scores
+                     │
+                     ▼
+            Activity Ranking
+                     │
+                     ▼
+          Top Personalized Results
+
+---
+
+🔬 Methodology
+
+The project follows an end-to-end Machine Learning workflow.
+
+1. Data Collection
+
+Real-world activity and place information was collected from OpenStreetMap using Overpass API-based data collection.
+
+The resulting dataset contains:
+
+- Place names
+- Geographic coordinates
+- Activity categories
+- Location information
+- Indoor/outdoor characteristics
+- Accessibility-related information
+- Other available OSM attributes
+
+---
+
+2. Data Preparation
+
+The collected data is cleaned and transformed before being used by the recommendation system.
+
+The preparation pipeline includes:
+
+- Data cleaning
+- Missing-value handling
+- Duplicate checking
+- Category normalization
+- Feature transformation
+- Data validation
+- User/activity merging
+- Interaction processing
+
+---
+
+3. User and Interaction Data
+
+The project contains synthetic user and interaction data for Machine Learning experimentation.
+
+Users
+
+1,000 synthetic users
+
+The users are artificially generated and do not represent real people.
+
+Interactions
+
+15,695 synthetic interactions
+
+The interaction dataset represents different types of user behavior.
+
+---
+
+⭐ Interaction Modeling
+
+Different interaction types represent different levels of user interest.
+
+The project uses weighted interaction signals:
+
+Interaction| Weight
+Rating| 1.00
+Visit| 0.80
+Save| 0.65
+View| 0.25
+
+This allows the recommendation model to distinguish stronger signals from weaker signals.
+
+For example:
+
+Rating
+  ↓
+Strong preference signal
+
+Visit
+  ↓
+Strong behavioral signal
+
+Save
+  ↓
+Medium preference signal
+
+View
+  ↓
+Weak interest signal
+
+---
+
+🧠 Machine Learning Model
+
+The main recommendation model is based on XGBoost Classification.
+
+The model combines multiple groups of features.
+
+User Features
+
+- User preferences
+- User category behavior
+- User indoor/outdoor preferences
+- User historical ratings
+- User positive interaction rates
+
+Activity Features
+
+- Activity category
 - Activity quality
-- User behavior statistics
+- Activity characteristics
+- Activity popularity
+- Activity interaction statistics
 
-The interaction data is converted into a target signal representing whether an activity is likely to be preferred.
+Interaction Features
 
-Interaction weights
+- Interaction type
+- Interaction weight
+- Historical behavior
+- Rating strength
+- Category interaction count
 
-Different interaction types receive different weights:
+Context Features
 
-rating → 1.00
-visit  → 0.80
-save   → 0.65
-view   → 0.25
+- Weather conditions
+- Budget compatibility
+- Indoor/outdoor suitability
+- Accessibility
+- Group suitability
 
-This allows the model to distinguish between stronger and weaker user signals.
+The model predicts the probability that a user will positively interact with an activity.
 
----
-
-📊 Model Performance
-
-The trained XGBoost model was evaluated using a temporal train/test split.
-
-Dataset split
-
-Training samples: 12,869
-Testing samples:   2,826
-Features:              82
-
-Results
-
-Metric| Score
-Accuracy| 91.61%
-Precision| 93.23%
-Recall| 97.90%
-F1 Score| 95.51%
-ROC-AUC| 90.50%
-PR-AUC| 99.00%
-
-Classification performance
-
-The model achieved particularly strong performance on the positive recommendation class:
-
-Positive-class Precision: 0.93
-Positive-class Recall:    0.98
-Positive-class F1:        0.96
+The predicted probabilities are then used to rank candidate activities.
 
 ---
 
-⭐ Important Features
+🧩 Feature Engineering
 
-Some of the strongest model features include:
+The project uses engineered features to capture both user-level and activity-level behavior.
+
+Important features include:
 
 1. "rating_strength"
 2. "user_category_positive_rate"
@@ -173,17 +278,67 @@ Some of the strongest model features include:
 9. "activity_quality"
 10. "category_interaction_count"
 
-These features allow the model to learn both user behavior and activity-level patterns.
+These features help the model learn patterns such as:
+
+User preference
+      +
+Category preference
+      +
+Activity quality
+      +
+Historical behavior
+      +
+Context
+      ↓
+Recommendation probability
+
+---
+
+📊 Model Evaluation
+
+The model was evaluated using a temporal train/test split to reduce the risk of using future interactions to predict past behavior.
+
+Dataset Split
+
+Item| Value
+Training Samples| 12,869
+Testing Samples| 2,826
+Features| 82
+
+---
+
+🏆 Model Performance
+
+The trained XGBoost model achieved the following results:
+
+Metric| Score
+Accuracy| 91.61%
+Precision| 93.23%
+Recall| 97.90%
+F1 Score| 95.51%
+ROC-AUC| 90.50%
+PR-AUC| 99.00%
+
+Positive-Class Performance
+
+Metric| Score
+Precision| 0.93
+Recall| 0.98
+F1 Score| 0.96
+
+These results indicate that the model is particularly effective at identifying activities that are likely to be positively preferred within the evaluated dataset.
+
+«Important: These metrics are based on the project's available dataset and evaluation setup. They should not be interpreted as a guarantee of real-world recommendation accuracy.»
 
 ---
 
 🌎 Dataset
 
-The project contains real-world place data derived from OpenStreetMap.
+The activity dataset contains real-world geographic information derived from OpenStreetMap.
 
-The dataset contains:
+📍 Activity Coverage
 
-Activities
+The project contains:
 
 11,630 named places
 
@@ -202,23 +357,11 @@ across 12 major US cities:
 - San Francisco
 - Seattle
 
-Synthetic Users
-
-1,000 users
-
-The users are completely synthetic and do not represent real people.
-
-Synthetic Interactions
-
-15,695 interactions
-
-The interaction dataset is also synthetic.
-
 ---
 
 🏷️ Activity Categories
 
-The dataset contains categories such as:
+The dataset contains activity categories including:
 
 - 🎢 Amusement
 - 🐠 Aquarium
@@ -235,111 +378,127 @@ The dataset contains categories such as:
 
 ---
 
-🌦️ Weather Integration
+🌦️ Weather-Aware Recommendations
 
-The project contains a dedicated FastAPI service for weather information.
+Weather conditions can significantly affect whether an activity is suitable.
 
-The system can request:
+The project includes a dedicated FastAPI weather service.
+
+Available endpoints include:
 
 GET /weather/search
 GET /weather/forecast
 GET /weather/weekend
 
-The most important endpoint for the recommendation system is:
+Example:
 
 GET /weather/weekend?city=New%20York
 
-This provides weekend weather information and an outdoor suitability score.
+The service provides weekend weather information and outdoor suitability information.
 
-The recommendation system can therefore prefer:
+The recommendation logic can therefore adapt to conditions such as:
 
-Rain
-   ↓
-Indoor activities
+Rainy Weather
+     ↓
+Prefer Indoor Activities
 
-or:
+and:
 
-Sunny weather
-   ↓
-Outdoor activities
+Good Weather
+     ↓
+Prefer Outdoor Activities
+
+This creates a more context-aware recommendation system.
 
 ---
 
 📅 Google Calendar Integration
 
-The FastAPI service also provides Google Calendar integration.
+Weekend Activity Planner also includes Google Calendar integration.
 
-The system supports:
+The purpose is to connect recommendations with the user's available time.
+
+Supported functionality includes:
 
 - OAuth authentication
 - Calendar connection status
-- Busy periods
+- Busy period detection
 - Free-time detection
 - Calendar event listing
-- Creating activity events
+- Creating calendar events
 - Deleting events
 - Disconnecting the calendar
 
-Main endpoints include:
+Main Endpoints
 
-GET  /calendar/status
-GET  /calendar/auth
-GET  /calendar/busy
-GET  /calendar/free-slots
-GET  /calendar/events
-POST /calendar/events
+GET    /calendar/status
+GET    /calendar/auth
+GET    /calendar/busy
+GET    /calendar/free-slots
+GET    /calendar/events
+POST   /calendar/events
 DELETE /calendar/events/{event_id}
-POST /calendar/disconnect
+POST   /calendar/disconnect
 
-This makes it possible to move from:
+Example Workflow
 
 Recommendation
       ↓
 User selects activity
       ↓
+Check calendar
+      ↓
 Find available time
       ↓
 Create calendar event
 
+This allows the recommendation system to move from finding an activity to helping the user schedule it.
+
 ---
 
-🖥️ Web Application
+🌐 Web Application
 
-The frontend is implemented using Flask.
+The project uses Flask for the main web application.
 
-Main pages:
+Main Pages
 
 /
 ├── Home
 ├── About
 └── Contact
 
-The Flask application also communicates with the FastAPI service.
+The Flask application communicates with the FastAPI services and the Machine Learning model.
 
-Architecture
+---
 
-                 ┌──────────────────────┐
-                 │      User / Browser  │
-                 └──────────┬───────────┘
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │       Flask App      │
-                 │       Port 5000      │
-                 └──────────┬───────────┘
-                            │
-              ┌─────────────┴─────────────┐
-              ▼                           ▼
-      ┌────────────────┐          ┌────────────────┐
-      │ XGBoost Model  │          │    FastAPI     │
-      │ weekend_model  │          │    Port 8000   │
-      └────────────────┘          └───────┬────────┘
-                                          │
-                              ┌───────────┴───────────┐
-                              ▼                       ▼
-                       Weather Service        Google Calendar
+🏗️ System Architecture
 
-The Flask application automatically attempts to start the FastAPI service.
+                         ┌─────────────────────┐
+                         │       User          │
+                         │     / Browser       │
+                         └──────────┬──────────┘
+                                    │
+                                    ▼
+                         ┌─────────────────────┐
+                         │      Flask App      │
+                         │      Port 5000      │
+                         └──────────┬──────────┘
+                                    │
+                  ┌─────────────────┼─────────────────┐
+                  │                 │                 │
+                  ▼                 ▼                 ▼
+          ┌──────────────┐  ┌──────────────┐  ┌──────────────┐
+          │ XGBoost      │  │   FastAPI    │  │    SQLite    │
+          │ Model        │  │   Port 8000  │  │   Database   │
+          └──────────────┘  └───────┬──────┘  └──────────────┘
+                                    │
+                          ┌─────────┴─────────┐
+                          │                   │
+                          ▼                   ▼
+                  ┌──────────────┐    ┌──────────────┐
+                  │   Weather    │    │    Google    │
+                  │   Service    │    │   Calendar   │
+                  └──────────────┘    └──────────────┘
 
 ---
 
@@ -437,7 +596,7 @@ External Services
 - Google Calendar API
 - Weather API
 
-Development
+Development & Testing
 
 - Jupyter Notebook
 - Pytest
@@ -448,12 +607,12 @@ Development
 
 🚀 Installation
 
-Clone the repository:
+1. Clone the Repository
 
-git clone https://github.com/YOUR_GITHUB_ID/Weekend-Activity-Planner.git
+git clone https://github.com/aminemadi66/Weekend-Activity-Planner.git
 cd Weekend-Activity-Planner
 
-Install the main dependencies:
+2. Install Dependencies
 
 pip install -r requirements.txt
 
@@ -461,7 +620,7 @@ pip install -r requirements.txt
 
 🌐 FastAPI Setup
 
-Move into the API directory:
+Move to the API directory:
 
 cd Weekend_Activity_Planner_API_Final
 
@@ -479,13 +638,35 @@ macOS / Linux
 .venv/bin/python -m pip install -r requirements.txt
 cp .env.example .env
 
-For Google Calendar integration, add your own credentials to ".env".
+---
+
+🔐 Environment Variables
+
+For Google Calendar integration, configure your own credentials inside ".env".
+
+Example:
 
 GOOGLE_CLIENT_ID=YOUR_CLIENT_ID
 GOOGLE_CLIENT_SECRET=YOUR_CLIENT_SECRET
 GOOGLE_REDIRECT_URI=http://localhost:8000/calendar/oauth2callback
 
-Never commit the real ".env" file or Google tokens to GitHub.
+Security Rule
+
+Never commit real credentials to GitHub.
+
+Do not upload:
+
+.env
+.secrets/
+google_token.json
+API keys
+Client secrets
+Access tokens
+Passwords
+
+Only the example configuration should be included:
+
+.env.example
 
 ---
 
@@ -495,36 +676,36 @@ Return to the project root:
 
 cd ..
 
-Then run:
+Start the application:
 
 python app.py
 
-The application starts:
+The application uses:
 
-Flask  → http://127.0.0.1:5000
+Flask   → http://127.0.0.1:5000
 FastAPI → http://127.0.0.1:8000
 
-Open:
+Open the main application at:
 
 http://127.0.0.1:5000
 
-To test the connection between Flask and FastAPI:
-
-http://127.0.0.1:5000/test-api
-
 ---
 
-🧪 Running Tests
+🧪 Testing
 
-Inside the FastAPI directory:
+The FastAPI project includes automated tests.
+
+Run:
 
 python -m pytest -q
 
+Testing is used to help verify that the backend services behave as expected.
+
 ---
 
-🔎 Baseline Recommender
+🔎 Baseline Recommendation System
 
-A transparent rule-based baseline is included for comparison.
+A rule-based baseline recommender is included to provide a transparent comparison against the Machine Learning approach.
 
 Example:
 
@@ -534,107 +715,39 @@ python scripts/baseline_recommender.py \
     --weather rain \
     --categories museum,gallery
 
-The baseline considers:
+The baseline considers factors such as:
 
 - City
 - Budget
 - Weather
 - Activity category
 - Indoor/outdoor suitability
-- Activity data quality
+- Activity quality
+
+This provides a simple non-ML reference point for comparison.
 
 ---
 
-🔐 Security
+📓 Reproducibility
 
-Sensitive information must never be committed to GitHub.
-
-Do NOT upload:
-
-.env
-.secrets/
-google_token.json
-API keys
-Google Client Secrets
-Passwords
-Access tokens
-
-The repository contains ".env.example" instead of real credentials.
-
----
-
-⚠️ Data Limitations
-
-OpenStreetMap is community-maintained, so some information may be:
-
-- Missing
-- Incomplete
-- Outdated
-- Incorrect
-
-City assignment is based on collection bounding boxes and does not necessarily represent official municipal boundaries.
-
-Coordinates for OSM ways and relations may represent geometric centers rather than actual entrances.
-
-Estimated prices and durations are heuristic estimates and should not be treated as official venue information.
-
-Users should verify:
-
-- Opening hours
-- Prices
-- Availability
-- Accessibility
-- Safety
-- Venue information
-
-before making a final plan.
-
----
-
-📜 Data License & Attribution
-
-The place data is derived from OpenStreetMap through Overpass API and related OSM endpoints.
-
-© OpenStreetMap contributors.
-
-OSM-derived database data is provided under:
-
-Open Data Commons Open Database License (ODbL) 1.0
-
-See:
-
-SOURCES_LICENSE.md
-
-for the complete source and licensing information.
-
-The synthetic users and synthetic interactions were generated by this project and are not real-world user records.
-
----
-
-🔄 Reproducibility
-
-The project includes scripts for rebuilding and inspecting the dataset:
-
-scripts/build_weekend_activity_planner_us.py
-scripts/baseline_recommender.py
-
-The Jupyter Notebook contains the Machine Learning workflow:
+The project includes a Jupyter Notebook:
 
 weekend_activity_planner.ipynb
 
-The notebook covers:
+The notebook documents the Machine Learning workflow, including:
 
 1. Data loading
 2. Data cleaning
-3. Feature engineering
-4. User/activity merging
-5. Target creation
-6. Train/test splitting
-7. XGBoost training
-8. Model evaluation
-9. Feature importance
-10. Recommendation generation
-11. Model export
+3. Exploratory analysis
+4. Feature engineering
+5. User/activity merging
+6. Target creation
+7. Temporal train/test splitting
+8. XGBoost training
+9. Model evaluation
+10. Feature importance analysis
+11. Recommendation generation
+12. Model export
 
 The trained model is stored as:
 
@@ -642,79 +755,260 @@ weekend_model.pkl
 
 ---
 
-📈 Validation
+📊 Validation
 
-The included validation report confirms:
+The project includes a validation report:
 
-Activities:          11,630
-Cities:                    12
-Synthetic users:       1,000
-Synthetic interactions: 15,695
+validation_report.json
 
-Missing names:             0
-Missing coordinates:       0
-Duplicate OSM IDs:         0
-Synthetic flags valid:  TRUE
-Cost estimates flagged: TRUE
+Key dataset validation information includes:
+
+Activities:             11,630
+Cities:                      12
+Synthetic Users:          1,000
+Synthetic Interactions:  15,695
+
+The dataset validation process checks important properties such as:
+
+- Missing activity names
+- Missing coordinates
+- Duplicate OSM identifiers
+- Synthetic data flags
+- Cost-estimate flags
+- Dataset consistency
 
 ---
 
-🛣️ Future Improvements
+📸 Screenshots & Demonstration
 
-Possible future improvements include:
+Screenshots of the application can be placed in:
 
-- Better cold-start recommendations
-- More advanced collaborative filtering
-- Deep-learning recommendation models
+screenshots/
+
+Recommended screenshots for the final project presentation:
+
+1. Main application interface
+2. Activity recommendation results
+3. Weather-aware recommendation
+4. Calendar integration
+5. Project architecture
+6. Model evaluation results
+
+Example README usage:
+
+## 📸 Screenshots
+
+### Main Interface
+
+![Main Interface](screenshots/main.png)
+
+### Recommendation Results
+
+![Recommendation Results](screenshots/recommendations.png)
+
+---
+
+⚠️ Limitations
+
+Although the project demonstrates an end-to-end personalized recommendation pipeline, there are several limitations.
+
+Synthetic User Data
+
+The user and interaction datasets are synthetic.
+
+Therefore, the model's evaluation results should not be interpreted as real-world user behavior performance.
+
+OpenStreetMap Data
+
+OpenStreetMap is community-maintained.
+
+Some information may be:
+
+- Missing
+- Incomplete
+- Outdated
+- Incorrect
+
+Activity Information
+
+Opening hours, prices, accessibility information, and venue availability may change over time.
+
+Users should verify important information before making a final decision.
+
+Cold Start
+
+New users with little or no interaction history may receive less personalized recommendations.
+
+Geographic Coverage
+
+The current dataset focuses on 12 US cities.
+
+The system can be extended to additional locations.
+
+Weather Dependency
+
+Weather recommendations depend on the availability and accuracy of the external weather service.
+
+External API Dependencies
+
+Google Calendar and weather integration require external services and valid credentials.
+
+---
+
+🔮 Future Improvements
+
+Future versions could include:
+
+- Advanced collaborative filtering
+- Neural recommendation models
+- Deep learning ranking models
 - Real-time venue availability
-- More accurate travel-time estimation
-- Distance-aware ranking
-- Better accessibility information
-- More cities and countries
-- User feedback loops
+- Better travel-time estimation
+- Distance-aware recommendation ranking
+- More accurate accessibility information
+- Additional cities and countries
+- Real user feedback loops
 - Mobile application
-- Deployment to a cloud server
-- More detailed weather forecasting
-- Automatic calendar-based itinerary generation
+- Cloud deployment
+- Improved cold-start recommendations
+- More advanced weather forecasting
+- Automatic multi-day itinerary generation
+- Explainable AI recommendations
+- Personalized recommendation explanations
 
 ---
 
-🏆 Project Goal
+🔒 Privacy & Security
 
-The ultimate goal of Weekend Activity Planner is to transform weekend planning from a simple search process into a personalized AI-assisted decision system.
+The project is designed to avoid storing real user credentials inside the repository.
 
-Instead of asking:
+Sensitive configuration values must be stored locally using environment variables.
 
-«"What can I do this weekend?"»
+Real Google Calendar credentials, API keys, passwords, and access tokens must never be committed to the repository.
 
-the user can receive:
-
-«"Based on your preferences, budget, weather, available time, and previous behavior, these are the activities most suitable for you."»
+Synthetic user data is used for the demonstration and Machine Learning workflow.
 
 ---
 
-👥 Team Collaboration
+📜 Data Sources & Licensing
 
-This project was developed as a collaborative Machine Learning and software engineering project.
+The activity dataset is derived from OpenStreetMap data collected through Overpass API and related OSM endpoints.
 
-Each team member can contribute through GitHub using:
+© OpenStreetMap contributors.
 
-- Commits
-- Issues
-- Pull Requests
-- Code reviews
+OpenStreetMap data is available under the:
+
+Open Data Commons Open Database License (ODbL) 1.0
+
+Additional source and licensing information is available in:
+
+SOURCES_LICENSE.md
+
+The synthetic users and synthetic interactions were generated for this project and do not represent real-world user records.
+
+---
+
+📦 Important Repository Files
+
+File| Purpose
+"app.py"| Main Flask application
+"weekend_model.pkl"| Trained XGBoost model
+"requirements.txt"| Main Python dependencies
+"activities.csv"| Activity/place dataset
+"users.csv"| Synthetic user dataset
+"interactions.csv"| Synthetic interaction dataset
+"weather_suitability.csv"| Weather suitability information
+"feature_importance.csv"| Model feature importance
+"validation_report.json"| Dataset validation report
+"weekend_activity_planner_us.sqlite"| SQLite database
+"weekend_activity_planner.ipynb"| ML workflow and experiments
+"SOURCES_LICENSE.md"| Data sources and licensing
+
+---
+
+🧪 Quality & Development Practices
+
+The project follows several software and Machine Learning development practices:
+
+- Clear project structure
+- Requirements management
+- Data validation
+- Feature engineering
+- Model evaluation
+- Temporal train/test splitting
+- Automated testing
+- Environment-variable based secrets
 - Documentation
-- Feature development
+- Source attribution
+- Git version control
+- Reproducible experimentation
 
 ---
 
-⭐ Conclusion
+📝 Git Commit Strategy
 
-Weekend Activity Planner combines Machine Learning, real-world geographic data, weather information, calendar availability, and a web interface to provide personalized weekend activity recommendations.
+The repository should use clear and meaningful commits.
 
-The project demonstrates an end-to-end AI application pipeline:
+Examples:
 
-Real-world Data
+Initial project upload
+Add machine learning pipeline
+Improve recommendation model
+Add weather integration
+Add Google Calendar integration
+Add Flask interface
+Add automated tests
+Add project documentation
+Update README
+Prepare final release
+
+This makes the development history easier to understand and demonstrates the evolution of the project.
+
+---
+
+🏷️ Final Release
+
+The recommended final release version is:
+
+v1.0.0
+
+The final release should contain:
+
+- Final source code
+- Final README
+- Requirements
+- Model
+- Documentation
+- Validation results
+- Final screenshots
+- Final project archive
+
+---
+
+👨‍💻 Project Creators
+
+This project was designed and developed by:
+
+- Amin Emadi — "@aminemadi66"
+- Kian Ghassemi Sahebi — "@Kianghassemisahebi-wq"
+- AMIRALI — "@rahahoseini2024-bit"
+- Mohammadjavad Nouri — "@mjteb21-beep"
+
+---
+
+⭐ Team
+
+Amin Emadi • Kian Ghassemi Sahebi • AMIRALI • Mohammadjavad Nouri
+
+«Made with ❤️ by our team.»
+
+---
+
+🎯 Final Goal
+
+Weekend Activity Planner demonstrates how multiple technologies can be combined into one practical AI application:
+
+Real-World Data
       ↓
 Data Processing
       ↓
@@ -722,25 +1016,22 @@ Feature Engineering
       ↓
 Machine Learning
       ↓
-Recommendation
+Personalized Recommendation
       ↓
-Weather & Calendar Integration
+Weather Context
+      ↓
+Calendar Availability
       ↓
 Web Application
+      ↓
+Better Weekend Planning
 
-👨‍💻 Project Creators
-
-This project was designed and developed by:
-
-- Amin Emadi
-- Kian Ghassemi Sahebi
-- AMIRALI NAJAFLOO
-- Mohammadjavad Nouri
+The project aims to demonstrate not only a trained Machine Learning model, but a complete end-to-end AI product combining data, modeling, backend services, external APIs, user interaction, testing, and documentation.
 
 ---
 
-⭐ Team
+🚀 Built for Innovation
 
-Amin Emadi • Kian Ghassemi Sahebi • AMIRALI NAJAFLOO • Mohammadjavad Nouri
+Weekend Activity Planner
 
-«Made with ❤️ by our team.»
+«Plan smarter. Discover better. Enjoy your weekend.»
